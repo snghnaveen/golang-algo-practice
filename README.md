@@ -3,38 +3,42 @@ This repo contains algorithm programs in golang.
 
 Algorithm are written in form of test cases.
 
-## Run
-- Run all tests
-```
-go test -v ./...
-```
+### Running test cases
+
+Prerequisite :
+- go1.20 
+
+Test :
+- Run all tests 
+    ```
+    go test -v ./...
+    ```
 - Run specific test
-```
-go test -v -run TestCheckStringAreRotations ./...
-```
+    ```
+    go test -v -run TestCheckStringAreRotations ./...
+    ```
 
 - Clear test cache 
-```
-go clean -testcache
-```
+    ```
+    go clean -testcache
+    ```
 
-## Directory structure
+### Directory structure
 ```
 ├── Makefile
 ├── README.md
+├── array
+│   └── 
 ├── go.mod
 ├── go.sum
 ├── internal <----- For datastructure like linked list, stack etc.
 ├── main.go
 └── string
     └── 
-└── array
-    └── 
-
 ```
 
 
 ### Index
-| Question | Type/ Tag  | Source |
-| --------| ------------- | ------------- |
-| Check if given strings are rotations of each other or not | `String`  | [string_rotation_test.go](./string/string_rotation_test.go)  |
+| Type / Category  |     Source         | Content   |
+| ---------- |       -------      | -----  |
+| `String`   | [string](./string) | [README](./string/README.md)

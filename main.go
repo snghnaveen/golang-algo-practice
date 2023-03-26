@@ -1,14 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println(`
 	
-	Nothing to run here.
-	Please run test case :
+Nothing to run here.
+Please run test case :
 
-		go test -v
+	go test -v ./...
 
 	`)
 }

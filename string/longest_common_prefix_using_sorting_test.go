@@ -8,7 +8,8 @@ import (
 )
 
 func TestLongestCommonPrefixUsingSorting(t *testing.T) {
-	t.Log(`Given a set of strings, find the longest common prefix.
+	t.Log(`
+	Given a set of strings, find the longest common prefix.
 	Examples:
 
 	Input: {“geeksforgeeks”, “geeks”, “geek”, “geezer”}

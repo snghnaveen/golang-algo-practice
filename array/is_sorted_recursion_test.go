@@ -7,16 +7,18 @@ import (
 )
 
 func TestLongestCommonPrefixUsingSorting(t *testing.T) {
-	t.Log(`Given an array, check whether the array is in sorted order with recursion.`)
+	t.Log(`
+	Given an array, check whether the array is in sorted order with recursion.
+	`)
 
-	t.Run("Suit 1", func(t *testing.T) {
+	t.Run("Suite 1", func(t *testing.T) {
 		arr := []int{1, 4, 11, 14, 17}
 
 		assert.Equal(t, true,
 			RunIsSortedWithRecursion(arr))
 	})
 
-	t.Run("Suit 2", func(t *testing.T) {
+	t.Run("Suite 2", func(t *testing.T) {
 		arr := []int{1, 3, 4, 2, 5}
 
 		assert.Equal(t, false,

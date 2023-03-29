@@ -9,9 +9,11 @@ import (
 )
 
 func Test012SortLinkedList(t *testing.T) {
-	t.Log(`You are given a Linked List with nodes that have values 0, 1 or 2. Sort the linked list.`)
+	t.Log(`
+	You are given a Linked List with nodes that have values 0, 1 or 2. Sort the linked list.
+	`)
 
-	t.Run("Suit 1", func(t *testing.T) {
+	t.Run("Suite 1", func(t *testing.T) {
 
 		// Insert values in LL
 		ll := i.NewLinkedList()

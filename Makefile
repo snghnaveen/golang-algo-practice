@@ -1,8 +1,12 @@
-.PHONY: run-all-tests
-run-all-tests: clear-cache
+.PHONY: tests
+tests: clear-cache
 		go test -v ./...
 
 .PHONY: clear-cache
 clear-cache:
 		go clean -testcache
+
+.PHONY: gofmt
+gofmt:
+		go fmt ./...
 

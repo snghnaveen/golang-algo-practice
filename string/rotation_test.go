@@ -8,8 +8,8 @@ import (
 )
 
 func TestCheckStringAreRotations(t *testing.T) {
-	t.Log(`Check if given strings are rotations of each other or not`)
 	t.Log(`
+	Check if given strings are rotations of each other or not
     Input: S1 = ABCD, S2 = CDAB
     Output: Strings are rotations of each other
 

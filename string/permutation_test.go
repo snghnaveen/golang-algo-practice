@@ -9,7 +9,12 @@ import (
 )
 
 func TestArePermutation(t *testing.T) {
-	t.Log(`Write a function to check whether two given strings are Permutation of each other or not. A Permutation of a string is another string that contains same characters, only the order of characters can be different. For example, “abcd” and “dabc” are Permutation of each other.`)
+	t.Log(`
+	Write a function to check whether two given strings are Permutation of each other or not.
+	A Permutation of a string is another string that contains same characters,
+	 only the order of characters can be different. 
+	For example, “abcd” and “dabc” are Permutation of each other.
+	`)
 
 	t.Run("When string are in Permutation", func(t *testing.T) {
 

@@ -1,6 +1,5 @@
 ### LinkedList
 
-Content : 
 ### Index
 | Question       | Source |
 | -------- |   ------------- |

@@ -42,9 +42,7 @@ Test :
 | Type / Category  |     Source         | Content   |
 | ---------- |       -------      | -----  |
 | `String`   | [string](./string) | [README](./string/README.md)
-| ---------- |       -------      | -----  |
 | `Array`   | [array](./array) | [README](./array/README.md)
-| ---------- |       -------      | -----  |
 | `LinkedList`   | [array](./linkedlist) | [README](./linkedlist/README.md)
 
 

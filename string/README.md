@@ -1,6 +1,5 @@
 ### String
 
-Content : 
 ### Index
 | Question       | Source |
 | -------- |   ------------- |

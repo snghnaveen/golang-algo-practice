@@ -19,14 +19,14 @@ func TestLongestCommonPrefixUsingSorting(t *testing.T) {
 	Output: “ap”
 	`)
 
-	t.Run("Suit 1", func(t *testing.T) {
+	t.Run("Suite 1", func(t *testing.T) {
 		strArr := []string{"geeksforgeeks", "geeks", "geek", "geezer"}
 
 		assert.Equal(t, `gee`,
 			RunTestLongestCommonPrefixUsingSorting(strArr))
 	})
 
-	t.Run("Suit 2", func(t *testing.T) {
+	t.Run("Suite 2", func(t *testing.T) {
 		strArr := []string{"apple", "ape", "april"}
 
 		assert.Equal(t, `ap`,

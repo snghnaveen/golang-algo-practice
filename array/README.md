@@ -1,6 +1,5 @@
 ### Array
 
-Content : 
 ### Index
 | Question       | Source |
 | -------- |   ------------- |

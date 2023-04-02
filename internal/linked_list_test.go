@@ -8,6 +8,18 @@ import (
 
 func TestLinkedList(t *testing.T) {
 
+	t.Run("Reverse", func(t *testing.T) {
+		ll := NewLinkedList()
+
+		ll.Insert(1)
+		ll.Insert(2)
+		ll.Insert(3)
+
+		expected := []int{3, 2, 1}
+
+		assert.Equal(t, len(expected), ll.Len)
+		assert.ElementsMatch(t, expected, GetAllValuesAsArr(ll))
+	})
 	t.Run("Insert", func(t *testing.T) {
 		ll := NewLinkedList()
 

@@ -138,3 +138,35 @@ func GetAllValuesAsArr(l *LinkedList) []int {
 	}
 	return out
 }
+
+func (l *LinkedList) GetAllValuesAsArr() []int {
+	var out []int
+	var i int
+	l.Len = i
+	node := l.Head
+	for node != nil {
+		out = append(out, node.Info)
+
+		i++
+		l.Len = i
+
+		node = node.Next
+	}
+	return out
+}
+
+func (l *LinkedList) Reverse() {
+	var prev Node
+	current := l.Head
+	var next Node
+
+	for current != nil {
+		next = *current.Next
+
+		current.Next = &prev
+		prev = *current
+
+		current = &next
+	}
+	l.Head = &prev
+}

@@ -49,3 +49,4 @@ Test :
 ### TODO
 - https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 - https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/
+- Find nth node from the end of a Linked List.

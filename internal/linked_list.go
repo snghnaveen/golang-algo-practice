@@ -170,3 +170,7 @@ func (l *LinkedList) Reverse() {
 	}
 	l.Head = &prev
 }
+
+func (l *LinkedList) GetLen() int {
+	return l.Len
+}

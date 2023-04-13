@@ -49,4 +49,6 @@ Test :
 ### TODO
 - https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 - https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/
-- Find nth node from the end of a Linked List.
+- Find the longest palindrome in a string
+- Given an array of integers, print all combinations of size X. (merged)
+- Given an array of integers A, print all its subsets. (merged)

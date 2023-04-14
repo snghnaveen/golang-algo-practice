@@ -28,8 +28,8 @@ func TestImplementQueueUsingStack(t *testing.T) {
 }
 
 type Queue struct {
-	stack1 s.Stack
-	stack2 s.Stack
+	stack1 s.Stack[int]
+	stack2 s.Stack[int]
 }
 
 func (q *Queue) EnQueue(x int) {

@@ -52,3 +52,5 @@ Test :
 - Find the longest palindrome in a string
 - Given an array of integers, print all combinations of size X. (merged)
 - Given an array of integers A, print all its subsets. (merged)
+- Maze questions
+- https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/

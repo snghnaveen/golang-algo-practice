@@ -1,19 +1,19 @@
 package internal
 
-type Stack []int
+type Stack[T int | string] []T
 
-func (s *Stack) IsEmpty() bool {
+func (s *Stack[T]) IsEmpty() bool {
 	if s != nil && len(*s) > 0 {
 		return false
 	}
 	return true
 }
 
-func (s *Stack) Push(d int) {
-	*s = append(*s, d)
+func (s *Stack[T]) Push(item T) {
+	*s = append(*s, item)
 }
 
-func (s *Stack) Pop() int {
+func (s *Stack[T]) Pop() T {
 	if s.IsEmpty() {
 		panic("stack in empty")
 	}
@@ -25,16 +25,22 @@ func (s *Stack) Pop() int {
 	return element
 }
 
-func (s *Stack) Peek() int {
+func (s *Stack[T]) Peek() T {
 	if !s.IsEmpty() {
 		last := len(*s) - 1
 		element := (*s)[last]
 		return element
 	}
 
-	return 0
+	var result T
+	return result
 }
 
-func NewStack() *Stack {
-	return &Stack{}
+func NewStack() *Stack[int] {
+	return &Stack[int]{}
+}
+
+func NewStringStack() *Stack[string] {
+	return &Stack[string]{}
+
 }

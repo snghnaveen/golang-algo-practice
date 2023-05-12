@@ -11,5 +11,6 @@
 | 6. Find extract characters in a string that can be removed to make it as a palindrome.  | [valid_palindrome_after_removing_test.go](./valid_palindrome_after_removing_test.go)  |
 | 7. String is anagram or not.  | [anagram_test.go](./anagram_test.go)  |
 | 8. First non-repetitive letter.  | [non_repetitive_test.go](./non_repetitive_test.go)  |
+| 9. Given an array of strings strs, group the anagrams together.  | [group_anagram_test.go](./group_anagram_test.go)  |
 
 

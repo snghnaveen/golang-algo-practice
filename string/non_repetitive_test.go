@@ -8,10 +8,11 @@ import (
 )
 
 func TestFirstNonRepetitive(t *testing.T) {
-	t.Log(`For a given string, print first non-repetitive letter from string
-			Input: “geeksforgeeks”
-			Output: f
-			Explanation: As ‘f’ is first character in the string which does not repeat.
+	t.Log(`
+	For a given string, print first non-repetitive letter from string
+	Input: “geeksforgeeks”
+	Output: f
+	Explanation: As ‘f’ is first character in the string which does not repeat.
 	`)
 
 	assert.Equal(t, RunFirstNonRepetitive("geeksforgeeks"), "f")

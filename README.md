@@ -1,14 +1,24 @@
-# golang-algo-practice
-This repo contains algorithm programs in golang.
+# golang-algo-practice 
 
-Algorithm are written in form of test cases.
+![golang-algo-practice-build](https://github.com/snghnaveen/golang-algo-practice/actions/workflows/push.yaml/badge.svg)
+
+This repo contains various algorithms & data structure programs written in golang.
+Questions are taken from various sources like `geekforgeeks`, `leetcode` etc.
+Programs are written in form of `go test` cases. They are in fully working condition with multiple inputs.
 
 ### Running test cases
 
 Prerequisite :
-- go1.20 
+- go1.20
+- Docker (optional)
 
-Test :
+Test (Docker) :
+- ``` docker-compose up```
+
+Test (build) :
+
+- ```make tests```
+OR
 - Run all tests 
     ```
     go test -v ./...
@@ -43,7 +53,10 @@ Test :
 | ---------- |       -------      | -----  |
 | `String`   | [string](./string) | [README](./string/README.md)
 | `Array`   | [array](./array) | [README](./array/README.md)
-| `LinkedList`   | [array](./linkedlist) | [README](./linkedlist/README.md)
+| `LinkedList`   | [linkedlist](./linkedlist) | [README](./linkedlist/README.md)
+| `Stack`   | [stack](./stack) | [README](./stack/README.md)
+| `Search`   | [search](./search) | [README](./search/README.md)
+| `Sorting`   | [sorting](./sorting) | [README](./sorting/README.md)
 
 
 ### TODO

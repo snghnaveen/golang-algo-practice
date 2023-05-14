@@ -9,4 +9,3 @@ clear-cache:
 .PHONY: gofmt
 gofmt:
 		go fmt ./...
-

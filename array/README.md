@@ -12,3 +12,4 @@
 | 7. Given an integer array nums and an integer k, return the k most frequent elements | [top_k_test.go](./top_k_test.go)  |
 | 8. Longest consecutive sequence | [longest_seq_test.go](./longest_seq_test.go)  |
 | 9. Product of array except self | [product_except_self_test.go](./product_except_self_test.go)  |
+| 10. Best time to buy and sell stock | [stock_test.go](./stock_test.go)  |

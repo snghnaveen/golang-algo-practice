@@ -21,28 +21,28 @@ func TestIsOneStep(t *testing.T) {
 	t.Run("Suite 1", func(t *testing.T) {
 		str1 := "pale"
 		str2 := "ple"
-		assert.Equal(t, true, IsOneEditAway(str1, str2))
+		assert.True(t, IsOneEditAway(str1, str2))
 	})
 	t.Run("Suite 2", func(t *testing.T) {
 		str1 := "pales"
 		str2 := "pale"
-		assert.Equal(t, true, IsOneEditAway(str1, str2))
+		assert.True(t, IsOneEditAway(str1, str2))
 	})
 	t.Run("Suite 3", func(t *testing.T) {
 		str1 := "pale"
 		str2 := "bale"
-		assert.Equal(t, true, IsOneEditAway(str1, str2))
+		assert.True(t, IsOneEditAway(str1, str2))
 	})
 	t.Run("Suite 4", func(t *testing.T) {
 		str1 := "pale"
 		str2 := "bae"
-		assert.Equal(t, false, IsOneEditAway(str1, str2))
+		assert.False(t, IsOneEditAway(str1, str2))
 	})
 	t.Run("Suite 5", func(t *testing.T) {
 		str1 := "abc"
 		str2 := "abc"
 		// false, because they are equal
-		assert.Equal(t, false, IsOneEditAway(str1, str2))
+		assert.False(t, IsOneEditAway(str1, str2))
 	})
 }
 

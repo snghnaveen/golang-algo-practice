@@ -12,5 +12,4 @@
 | 7. String is anagram or not.  | [anagram_test.go](./anagram_test.go)  |
 | 8. First non-repetitive letter.  | [non_repetitive_test.go](./non_repetitive_test.go)  |
 | 9. Given an array of strings strs, group the anagrams together.  | [group_anagram_test.go](./group_anagram_test.go)  |
-
-
+| 10. Len of longest substring without repeating characters.  | [longest_substring_without_repeat_test.go](./longest_substring_without_repeat_test.go)  |

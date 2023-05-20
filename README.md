@@ -3,7 +3,7 @@
 ![golang-algo-practice-build](https://github.com/snghnaveen/golang-algo-practice/actions/workflows/push.yaml/badge.svg)
 
 This repo contains various algorithms & data structure programs written in golang.
-Questions are taken from various sources like `geekforgeeks`, `leetcode` etc.
+Questions are taken from various sources like `geekforgeeks`, `leetcode` , `ChatGPT`, etc.
 Programs are written in form of `go test` cases. They are in fully working condition with multiple inputs.
 
 ### Running test cases
@@ -67,3 +67,4 @@ OR
 - Given an array of integers A, print all its subsets. (merged)
 - Maze questions
 - https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+- Longest Increasing Subsequence (LIS)

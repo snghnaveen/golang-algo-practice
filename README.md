@@ -57,6 +57,7 @@ OR
 | `Stack`   | [stack](./stack) | [README](./stack/README.md)
 | `Search`   | [search](./search) | [README](./search/README.md)
 | `Sorting`   | [sorting](./sorting) | [README](./sorting/README.md)
+| `JSON Parsing`   | [json](./json) | [README](./json/README.md)
 
 
 ### TODO

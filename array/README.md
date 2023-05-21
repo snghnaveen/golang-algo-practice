@@ -13,3 +13,8 @@
 | 8. Longest consecutive sequence | [longest_seq_test.go](./longest_seq_test.go)  |
 | 9. Product of array except self | [product_except_self_test.go](./product_except_self_test.go)  |
 | 10. Best time to buy and sell stock | [stock_test.go](./stock_test.go)  |
+| 11. Remove duplicates from sorted array | [sorted_duplicated_test.go](./sorted_duplicated_test.go)  |
+| 12. Plus one | [plus_one_test.go](./plus_one_test.go)  |
+| 13. Remove target value from array | [remove_element_test.go](./remove_element_test.go)  |
+| 14. Find 3rd max in the array | [3rd_max_test.go](./3rd_max_test.go)  |
+| 15. Segregate 0s on left side and 1s on right side of the array | [segregate_0_and_1_test.go](./segregate_0_and_1_test.go)  |

@@ -22,7 +22,6 @@ func TestLongestCommonPrefixUsingSorting(t *testing.T) {
 
 		assert.False(t, RunIsSortedWithRecursion(arr))
 	})
-
 }
 
 func RunIsSortedWithRecursion(in []int) bool {
@@ -30,7 +29,6 @@ func RunIsSortedWithRecursion(in []int) bool {
 }
 
 func checkSorted(in []int, n int) bool {
-
 	// Array has one or no element or the
 	// rest are already checked and approved.
 	if n == 0 || n == 1 {

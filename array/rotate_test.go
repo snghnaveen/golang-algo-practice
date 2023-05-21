@@ -7,6 +7,10 @@ import (
 )
 
 func TestRotateArray(t *testing.T) {
+	t.Log(`
+	Given an array of integers arr[] of size N and an integer, 
+	the task is to rotate the array elements to the left by d positions.
+	`)
 
 	t.Run("Suite 1", func(t *testing.T) {
 		in := []int{1, 2, 3, 4, 5, 6, 7}
@@ -15,7 +19,6 @@ func TestRotateArray(t *testing.T) {
 
 		assert.Equal(t, RunTestRotateArray(in, rotateBy), expected)
 	})
-
 	t.Run("Suite 2", func(t *testing.T) {
 		in := []int{3, 4, 5, 6, 7, 1, 2}
 		rotateBy := 2
@@ -23,7 +26,6 @@ func TestRotateArray(t *testing.T) {
 
 		assert.Equal(t, RunTestRotateArray(in, rotateBy), expected)
 	})
-
 }
 
 func RunTestRotateArray(arr []int, x int) []int {

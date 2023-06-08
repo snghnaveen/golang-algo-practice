@@ -69,3 +69,5 @@ OR
 - Maze questions
 - https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
 - Longest Increasing Subsequence (LIS)
+- https://github.com/ruppysuppy/Daily-Coding-Problem-Solutions
+- https://leetcode.com/problems/number-of-islands/

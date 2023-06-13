@@ -58,6 +58,8 @@ OR
 | `Search`   | [search](./search) | [README](./search/README.md)
 | `Sorting`   | [sorting](./sorting) | [README](./sorting/README.md)
 | `JSON Parsing`   | [json](./json) | [README](./json/README.md)
+| `Concurrency`   | [concurrency](./concurrency) | [README](./concurrency/README.md)
+
 
 
 ### TODO
@@ -71,3 +73,5 @@ OR
 - Longest Increasing Subsequence (LIS)
 - https://github.com/ruppysuppy/Daily-Coding-Problem-Solutions
 - https://leetcode.com/problems/number-of-islands/
+-https://leetcode.com/problems/merge-intervals/description/
+-https://leetcode.com/problems/zigzag-conversion/

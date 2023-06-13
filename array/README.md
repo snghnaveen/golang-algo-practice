@@ -20,3 +20,6 @@
 | 15. Segregate 0s on left side and 1s on right side of the array | [segregate_0_and_1_test.go](./segregate_0_and_1_test.go)  |
 | 16. Find Subarray with given sum (Non-negative Numbers) | [subarray_sum_test.go](./subarray_sum_test.go)  |
 | 17. Segregate negative on left side and positive on right side of the array | [move_neg_pos_test.go](./move_neg_pos_test.go)  |
+| 18. Find the smallest positive number missing from the array | [find_1st_missing_pos_test.go](./find_1st_missing_pos_test.go)  |
+
+

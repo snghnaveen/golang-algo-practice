@@ -42,7 +42,6 @@ func TestToBinary(t *testing.T) {
 func RunToBinary(n int) int {
 	var out []int
 	for n > 0 {
-		fmt.Println("n", n, "/2", n/2, " | ", n, "%2", n%2)
 		out = append(out, n%2)
 		n = n / 2
 	}

@@ -18,13 +18,14 @@ func TestMinElementInStack(t *testing.T) {
 	minStack.Push(1)
 	minStack.Push(2)
 
-	assert.Equal(t, minStack.Min(), 1)
+	exp := 1
+	assert.Equal(t, exp, minStack.Min())
 
 	minStack.Pop()
 	minStack.Pop()
 
-	assert.Equal(t, minStack.Min(), 3)
-
+	exp = 3
+	assert.Equal(t, exp, minStack.Min())
 }
 
 type MinStack struct {

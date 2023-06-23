@@ -17,17 +17,19 @@ func TestCompressionMechanism(t *testing.T) {
 	`)
 	t.Run("Suite 1", func(t *testing.T) {
 		in := "aabcccccaaax"
-		assert.Equal(t, "a2b1c5a3x1", RunGetCompression(in))
+		exp := "a2b1c5a3x1"
+		assert.Equal(t, exp, RunGetCompression(in))
 	})
 	t.Run("Suite 2", func(t *testing.T) {
 		in := "abcccccaaax"
-		assert.Equal(t, "a1b1c5a3x1", RunGetCompression(in))
+		exp := "a1b1c5a3x1"
+		assert.Equal(t, exp, RunGetCompression(in))
 	})
 	t.Run("Suite 3", func(t *testing.T) {
 		in := "abcccccaaaxm"
-		assert.Equal(t, "a1b1c5a3x1m1", RunGetCompression(in))
+		exp := "a1b1c5a3x1m1"
+		assert.Equal(t, exp, RunGetCompression(in))
 	})
-
 }
 
 func RunGetCompression(in string) string {
@@ -53,7 +55,6 @@ func RunGetCompression(in string) string {
 			count = 1
 			out += current
 		}
-
 	}
 
 	out += strconv.Itoa(count)

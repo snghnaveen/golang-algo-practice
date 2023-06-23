@@ -26,13 +26,13 @@ func TestLongestSequence(t *testing.T) {
 	t.Run("Suite 1", func(t *testing.T) {
 		in := []int{100, 4, 200, 1, 3, 2}
 		exp := 4
-		assert.Equal(t, RunLongestSequence(in), exp)
+		assert.Equal(t, exp, RunLongestSequence(in))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
 		in := []int{0, 3, 7, 2, 5, 8, 4, 6, 0, 1}
 		exp := 9
-		assert.Equal(t, RunLongestSequence(in), exp)
+		assert.Equal(t, exp, RunLongestSequence(in))
 	})
 }
 

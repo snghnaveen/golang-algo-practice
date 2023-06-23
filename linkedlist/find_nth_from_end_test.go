@@ -18,7 +18,26 @@ func TestFindNthFromEnd(t *testing.T) {
 		ll.Insert(val)
 	}
 
-	assert.Equal(t, RunTestGetNthFromEnd(ll, 1), 4)
+	in := ll
+
+	t.Run("Suite 1", func(t *testing.T) {
+		nth := 1
+		exp := 4
+		assert.Equal(t, exp, RunTestGetNthFromEnd(in, nth))
+	})
+
+	t.Run("Suite 2", func(t *testing.T) {
+		nth := 3
+		exp := 2
+		assert.Equal(t, exp, RunTestGetNthFromEnd(in, nth))
+	})
+
+	t.Run("Suite 3", func(t *testing.T) {
+		nth := 4
+		exp := 1
+		assert.Equal(t, exp, RunTestGetNthFromEnd(in, nth))
+	})
+
 	assert.Equal(t, RunTestGetNthFromEnd(ll, 3), 2)
 	assert.Equal(t, RunTestGetNthFromEnd(ll, 4), 1)
 }

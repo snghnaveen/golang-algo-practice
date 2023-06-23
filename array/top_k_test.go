@@ -23,17 +23,17 @@ func TestTopKFrequentElements(t *testing.T) {
 	t.Run("Suite 1", func(t *testing.T) {
 		in := []int{1, 1, 1, 2, 2, 3}
 		k := 2
-		assert.ElementsMatch(t, RunTopKFreqElements(in, k),
-			[]int{1, 2},
-		)
+		exp := []int{1, 2}
+
+		assert.ElementsMatch(t, exp, RunTopKFreqElements(in, k))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
 		in := []int{1}
 		k := 1
-		assert.ElementsMatch(t, RunTopKFreqElements(in, k),
-			[]int{1},
-		)
+		exp := []int{1}
+
+		assert.ElementsMatch(t, exp, RunTopKFreqElements(in, k))
 	})
 
 }

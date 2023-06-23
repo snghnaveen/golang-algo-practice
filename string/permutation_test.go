@@ -20,13 +20,13 @@ func TestArePermutation(t *testing.T) {
 
 		str1 := "abcd"
 		str2 := "dabc"
-		assert.Equal(t, true, RunArePermutation(str1, str2))
+		assert.True(t, RunArePermutation(str1, str2))
 	})
 
 	t.Run("When string are not in Permutation", func(t *testing.T) {
 		str1 := "abcd"
 		str2 := "qwer"
-		assert.Equal(t, false, RunArePermutation(str1, str2))
+		assert.False(t, RunArePermutation(str1, str2))
 	})
 
 }

@@ -17,14 +17,14 @@ func TestRotateArray(t *testing.T) {
 		rotateBy := 2
 		expected := []int{3, 4, 5, 6, 7, 1, 2}
 
-		assert.Equal(t, RunTestRotateArray(in, rotateBy), expected)
+		assert.Equal(t, expected, RunTestRotateArray(in, rotateBy))
 	})
 	t.Run("Suite 2", func(t *testing.T) {
 		in := []int{3, 4, 5, 6, 7, 1, 2}
 		rotateBy := 2
 		expected := []int{5, 6, 7, 1, 2, 3, 4}
 
-		assert.Equal(t, RunTestRotateArray(in, rotateBy), expected)
+		assert.Equal(t, expected, RunTestRotateArray(in, rotateBy))
 	})
 }
 

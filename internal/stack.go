@@ -42,5 +42,4 @@ func NewStack() *Stack[int] {
 
 func NewStringStack() *Stack[string] {
 	return &Stack[string]{}
-
 }

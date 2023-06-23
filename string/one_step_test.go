@@ -102,7 +102,6 @@ func IsOneEditInsertOrDelete(firstStr, secondStr string) bool {
 			i++
 			j++
 		}
-
 	}
 	return true
 

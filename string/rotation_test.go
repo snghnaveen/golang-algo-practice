@@ -20,24 +20,20 @@ func TestCheckStringAreRotations(t *testing.T) {
 		str1 := "ABCD"
 		str2 := "CDAB"
 
-		assert.Equal(t, `Strings are rotations of each other`,
-			RunCheckStringAreRotations(str1, str2))
+		assert.True(t, RunCheckStringAreRotations(str1, str2))
 	})
 
 	t.Run(`Not Rotation`, func(t *testing.T) {
 		str1 := "ABCD"
 		str2 := "ACBD"
-		assert.Equal(t, `Strings are not rotations of each other`,
-			RunCheckStringAreRotations(str1, str2))
+		assert.False(t, RunCheckStringAreRotations(str1, str2))
 	})
 
 }
 
-func RunCheckStringAreRotations(str1, str2 string) string {
-
+func RunCheckStringAreRotations(str1, str2 string) bool {
 	if strings.Contains(str1+str1, str2) {
-		return `Strings are rotations of each other`
+		return true
 	}
-	return `Strings are not rotations of each other`
-
+	return false
 }

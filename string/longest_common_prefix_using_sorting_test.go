@@ -20,19 +20,16 @@ func TestLongestCommonPrefixUsingSorting(t *testing.T) {
 	`)
 
 	t.Run("Suite 1", func(t *testing.T) {
-		strArr := []string{"geeksforgeeks", "geeks", "geek", "geezer"}
-
-		assert.Equal(t, `gee`,
-			RunLongestCommonPrefixUsingSorting(strArr))
+		in := []string{"geeksforgeeks", "geeks", "geek", "geezer"}
+		exp := "gee"
+		assert.Equal(t, exp, RunLongestCommonPrefixUsingSorting(in))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
-		strArr := []string{"apple", "ape", "april"}
-
-		assert.Equal(t, `ap`,
-			RunLongestCommonPrefixUsingSorting(strArr))
+		in := []string{"apple", "ape", "april"}
+		exp := "ap"
+		assert.Equal(t, exp, RunLongestCommonPrefixUsingSorting(in))
 	})
-
 }
 
 func RunLongestCommonPrefixUsingSorting(in []string) string {

@@ -15,10 +15,21 @@ func TestFirstNonRepetitive(t *testing.T) {
 	Explanation: As ‘f’ is first character in the string which does not repeat.
 	`)
 
-	assert.Equal(t, RunFirstNonRepetitive("geeksforgeeks"), "f")
-	assert.Equal(t, RunFirstNonRepetitive("algorithm"), "a")
-	assert.Equal(t, RunFirstNonRepetitive("bbaa"), "")
-
+	t.Run("Suite 1", func(t *testing.T) {
+		in := "geeksforgeeks"
+		exp := "f"
+		assert.Equal(t, exp, RunFirstNonRepetitive(in))
+	})
+	t.Run("Suite 2", func(t *testing.T) {
+		in := "algorithm"
+		exp := "a"
+		assert.Equal(t, exp, RunFirstNonRepetitive(in))
+	})
+	t.Run("Suite 3", func(t *testing.T) {
+		in := "bbaa"
+		exp := ""
+		assert.Equal(t, exp, RunFirstNonRepetitive(in))
+	})
 }
 
 func RunFirstNonRepetitive(s string) string {

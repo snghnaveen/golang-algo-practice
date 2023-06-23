@@ -17,11 +17,17 @@ func TestFindMiddleOfLL(t *testing.T) {
 		ll.Insert(i)
 	}
 
-	assert.Equal(t, 3, RunTestGetMiddleOfLL(ll))
+	t.Run("Suite 1", func(t *testing.T) {
+		exp := 3
+		assert.Equal(t, exp, RunTestGetMiddleOfLL(ll))
+	})
 
-	ll.Insert(6)
-	assert.Equal(t, 4, RunTestGetMiddleOfLL(ll))
+	t.Run("Suite 2", func(t *testing.T) {
+		ll.Insert(6)
 
+		exp := 4
+		assert.Equal(t, exp, RunTestGetMiddleOfLL(ll))
+	})
 }
 
 func RunTestGetMiddleOfLL(ll *i.LinkedList) int {

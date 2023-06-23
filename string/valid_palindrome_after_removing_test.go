@@ -23,7 +23,7 @@ func TestIsValidPalindromeAfterRemoving1Char(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		assert.Equal(t, RunTestIsValidPalindromeAfter1Char(tt.in), tt.want)
+		assert.Equal(t, tt.want, RunTestIsValidPalindromeAfter1Char(tt.in))
 	}
 
 }

@@ -140,7 +140,7 @@ func GetAllValuesAsArr(l *LinkedList) []int {
 }
 
 func (l *LinkedList) GetAllValuesAsArr() []int {
-	var out []int
+	out := []int{}
 	var i int
 	l.Len = i
 	node := l.Head

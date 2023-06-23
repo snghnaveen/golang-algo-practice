@@ -9,15 +9,20 @@ import (
 func TestBinarySearch(t *testing.T) {
 
 	in := []int{10, 20, 30, 40, 50, 60, 70}
-	search := 33
 
-	found, _ := RunTestBinarySearch(in, search)
-	assert.False(t, found)
+	t.Run("Suite 1", func(t *testing.T) {
+		search := 33
+		found, _ := RunTestBinarySearch(in, search)
+		assert.False(t, found)
+	})
 
-	search = 30
-	found, idx := RunTestBinarySearch(in, search)
-	assert.True(t, found)
-	assert.Equal(t, idx, 2)
+	t.Run("Suite 2", func(t *testing.T) {
+		search := 30
+		exp := 2
+		found, idx := RunTestBinarySearch(in, search)
+		assert.True(t, found)
+		assert.Equal(t, exp, idx)
+	})
 
 }
 

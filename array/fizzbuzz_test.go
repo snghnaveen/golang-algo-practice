@@ -14,9 +14,15 @@ func TestFizzBuzz(t *testing.T) {
 	and for the multiples of ‘5’ print “Buzz”. 
 	`)
 
-	assert.Equal(t, RunFizzBuzz(3), []string{"1", "2", "Fizz"})
+	t.Run("Suite 1", func(t *testing.T) {
+		exp := []string{"1", "2", "Fizz"}
+		assert.Equal(t, exp, RunFizzBuzz(3))
+	})
 
-	assert.Equal(t, RunFizzBuzz(15), []string{"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"})
+	t.Run("Suite 2", func(t *testing.T) {
+		exp := []string{"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"}
+		assert.Equal(t, exp, RunFizzBuzz(15))
+	})
 
 }
 

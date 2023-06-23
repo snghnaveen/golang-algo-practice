@@ -27,19 +27,19 @@ func TestBestTimeBuyAndSellStock(t *testing.T) {
 	t.Run("Suite 1", func(t *testing.T) {
 		in := []int{7, 1, 5, 3, 6, 4}
 		exp := 5
-		assert.Equal(t, RunBestTimeBuyAndSellStock(in), exp)
+		assert.Equal(t, exp, RunBestTimeBuyAndSellStock(in))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
 		in := []int{7, 6, 4, 3, 1}
 		exp := 0
-		assert.Equal(t, RunBestTimeBuyAndSellStock(in), exp)
+		assert.Equal(t, exp, RunBestTimeBuyAndSellStock(in))
 	})
 
 	t.Run("Suite 3", func(t *testing.T) {
 		in := []int{1, 6, 4, 3, 10}
 		exp := 9
-		assert.Equal(t, RunBestTimeBuyAndSellStock(in), exp)
+		assert.Equal(t, exp, RunBestTimeBuyAndSellStock(in))
 	})
 }
 

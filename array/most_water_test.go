@@ -16,12 +16,23 @@ func TestContainerWithMostWater(t *testing.T) {
 	Link : https://leetcode.com/problems/container-with-most-water/
 	`)
 
-	assert.Equal(t, RunMostWater([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}), 49)
+	t.Run("Suite 1", func(t *testing.T) {
+		in := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+		exp := 49
+		assert.Equal(t, exp, RunMostWater(in))
+	})
 
-	assert.Equal(t, RunMostWater([]int{1, 5, 4, 3}), 6)
+	t.Run("Suite 2", func(t *testing.T) {
+		in := []int{1, 5, 4, 3}
+		exp := 6
+		assert.Equal(t, exp, RunMostWater(in))
+	})
 
-	assert.Equal(t, RunMostWater([]int{3, 1, 2, 4, 5}), 12)
-
+	t.Run("Suite 3", func(t *testing.T) {
+		in := []int{3, 1, 2, 4, 5}
+		exp := 12
+		assert.Equal(t, exp, RunMostWater(in))
+	})
 }
 
 func RunMostWater(in []int) int {

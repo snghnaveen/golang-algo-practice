@@ -21,5 +21,6 @@
 | 16. Find Subarray with given sum (Non-negative Numbers) | [subarray_sum_test.go](./subarray_sum_test.go)  |
 | 17. Segregate negative on left side and positive on right side of the array | [move_neg_pos_test.go](./move_neg_pos_test.go)  |
 | 18. Find the smallest positive number missing from the array | [find_1st_missing_pos_test.go](./find_1st_missing_pos_test.go)  |
-
-
+| 19. Merge overlapping interval | [merge_interval_test.go](./merge_interval_test.go)  |
+| 20. Search in rotated sorted array | [search_sorted_rotated_test.go](./search_sorted_rotated_test.go)  |
+| 21. Insert interval | [insert_intervals_test.go](./insert_intervals_test.go)  |

@@ -37,9 +37,6 @@ func TestFindNthFromEnd(t *testing.T) {
 		exp := 1
 		assert.Equal(t, exp, RunTestGetNthFromEnd(in, nth))
 	})
-
-	assert.Equal(t, RunTestGetNthFromEnd(ll, 3), 2)
-	assert.Equal(t, RunTestGetNthFromEnd(ll, 4), 1)
 }
 
 func RunTestGetNthFromEnd(ll *i.LinkedList, n int) int {

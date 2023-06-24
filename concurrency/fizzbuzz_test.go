@@ -38,9 +38,9 @@ func TestFizzBuzz(t *testing.T) {
 }
 
 type FizzBuzz struct {
-	chFizz, chBuzz, chFizzBuzz, chNum, chNotify chan int
-	chDone                                      chan struct{}
-	res                                         []string
+	chFizz, chBuzz, chFizzBuzz, chNum chan int
+	chDone                            chan struct{}
+	res                               []string
 }
 
 func NewFizzBuzz() *FizzBuzz {
@@ -49,7 +49,6 @@ func NewFizzBuzz() *FizzBuzz {
 		chBuzz:     make(chan int),
 		chFizzBuzz: make(chan int),
 		chNum:      make(chan int),
-		chNotify:   make(chan int),
 		chDone:     make(chan struct{}),
 		res:        make([]string, 0),
 	}
@@ -92,7 +91,6 @@ func (fb *FizzBuzz) num() {
 }
 
 func (fb *FizzBuzz) closeAllChans() {
-	close(fb.chNotify)
 	close(fb.chFizz)
 	close(fb.chBuzz)
 	close(fb.chFizzBuzz)

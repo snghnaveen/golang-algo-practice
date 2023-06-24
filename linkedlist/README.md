@@ -7,4 +7,5 @@
 | 2. Find intersection of  Linked List  | [intersection_test.go](./intersection_test.go)  |
 | 3. Find the middle of a given linked list  | [middle_node_test.go](./middle_node_test.go)  |
 | 4. Find nth node from the end of a Linked List  | [find_nth_from_end_test.go](./find_nth_from_end_test.go)  |
-| 4. Remove Linked List Elements  | [remove_elements_test.go](./remove_elements_test.go)  |
+| 5. Remove Linked List Elements  | [remove_elements_test.go](./remove_elements_test.go)  |
+| 6. Check if Linked List is Palindrome | [palindrome_test.go](./palindrome_test.go)  |

@@ -22,7 +22,7 @@ func TestProductStats(t *testing.T) {
 	`)
 
 	jsonStr := `
-	[
+[
   {
     "name": "Product 1",
     "category": "Electronics",

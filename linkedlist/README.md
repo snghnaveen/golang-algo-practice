@@ -9,3 +9,4 @@
 | 4. Find nth node from the end of a Linked List  | [find_nth_from_end_test.go](./find_nth_from_end_test.go)  |
 | 5. Remove Linked List Elements  | [remove_elements_test.go](./remove_elements_test.go)  |
 | 6. Check if Linked List is Palindrome | [palindrome_test.go](./palindrome_test.go)  |
+| 7. Add two numbers | [add_number_test.go](./add_number_test.go)  |

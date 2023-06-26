@@ -24,3 +24,7 @@
 | 19. Merge overlapping interval | [merge_interval_test.go](./merge_interval_test.go)  |
 | 20. Search in rotated sorted array | [search_sorted_rotated_test.go](./search_sorted_rotated_test.go)  |
 | 21. Insert interval | [insert_intervals_test.go](./insert_intervals_test.go)  |
+| 22. Sort arrays having 0 ,1 ,2 the array | [sort_0_1_2_test.go](./sort_0_1_2_test.go)  |
+| 23. Find the subarray with the largest sum, and return its sum | [max_sum_contiguous_test.go](./max_sum_contiguous_test.go)  |
+
+

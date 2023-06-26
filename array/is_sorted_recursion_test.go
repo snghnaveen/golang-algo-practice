@@ -13,13 +13,11 @@ func TestLongestCommonPrefixUsingSorting(t *testing.T) {
 
 	t.Run("Suite 1", func(t *testing.T) {
 		arr := []int{1, 4, 11, 14, 17}
-
 		assert.True(t, RunIsSortedWithRecursion(arr))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
 		arr := []int{1, 3, 4, 2, 5}
-
 		assert.False(t, RunIsSortedWithRecursion(arr))
 	})
 }

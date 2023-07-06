@@ -26,5 +26,5 @@
 | 21. Insert interval | [insert_intervals_test.go](./insert_intervals_test.go)  |
 | 22. Sort arrays having 0 ,1 ,2 the array | [sort_0_1_2_test.go](./sort_0_1_2_test.go)  |
 | 23. Find the subarray with the largest sum, and return its sum | [max_sum_contiguous_test.go](./max_sum_contiguous_test.go)  |
-
+| 24. Leaders in an array | [leader_test.go](./leader_test.go)  |
 

@@ -33,14 +33,12 @@ func TestMaxSumContiguousArr(t *testing.T) {
 	t.Run("Suite 1", func(t *testing.T) {
 		in := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
 		exp := 6
-
 		assert.Equal(t, exp, RunMaxSumContiguousArr(in))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
 		in := []int{5, 4, -1, 7, 8}
 		exp := 23
-
 		assert.Equal(t, exp, RunMaxSumContiguousArr(in))
 	})
 }

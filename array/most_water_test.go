@@ -53,17 +53,3 @@ func RunMostWater(in []int) int {
 
 	return maxArea
 }
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}

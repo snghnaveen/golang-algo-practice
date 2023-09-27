@@ -28,4 +28,8 @@
 | 23. Find the subarray with the largest sum, and return its sum | [max_sum_contiguous_test.go](./max_sum_contiguous_test.go)  |
 | 24. Leaders in an array | [leader_test.go](./leader_test.go)  |
 | 25. Concatenation of Array | [concat_test.go](./concat_test.go)  |
-
+| 26. Largest number | [largest_num_test.go](./largest_num_test.go)  |
+| 27. Non-decreasing Array | [non_decreasing_test.go](./non_decreasing_test.go)  |
+| 28. Print pascal triangle | [pascal_triangle_test.go](./pascal_triangle_test.go)  |
+| 29. Replace Elements with Greatest Element on Right Side | [replace_greatest_test.go](./replace_greatest_test.go) |
+| 30. Is Subsequence | [is_subsequence_test.go](./is_subsequence_test.go) |

@@ -1,4 +1,8 @@
 ### Tree
+Binary Tree - A tree has atmost 2 childs
+
+BST (Binary Search Tree)
+
 
 ### Index
 | Question       | Source |

@@ -8,3 +8,4 @@
 | 3. Examine whether the pairs are balanced parentheses | [balanced_parentheses_test.go](./balanced_parentheses_test.go)  |
 | 4. Evaluate reverse polish notation | [reverse_notation_test.go](./reverse_notation_test.go)  |
 | 5. Sort a stack | [sort_test.go](./sort_test.go)  |
+| 6. Next greater element 1 | [./next_greater_element_1_test.go](./next_greater_element_1_test.go)  |

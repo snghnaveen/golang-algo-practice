@@ -36,3 +36,4 @@
 | 31. Lenght of Last word | [last_length_test.go](./last_length_test.go) |
 | 32. Unique Email | [unique_email_test](./unique_email_test) |
 | 33. Majority Element | [majority_element_test.go](./majority_element_test.go) |
+| 34. Brick wall | [brick_wall_test.go](./brick_wall_test.go) |

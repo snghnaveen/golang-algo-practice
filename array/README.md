@@ -37,3 +37,6 @@
 | 32. Unique Email | [unique_email_test](./unique_email_test) |
 | 33. Majority Element | [majority_element_test.go](./majority_element_test.go) |
 | 34. Brick wall | [brick_wall_test.go](./brick_wall_test.go) |
+| 35. Square root | [sqrt_test.go](./sqrt_test.go) |
+| 36. Single Element in a Sorted Array | [single_element_test.go](./single_element_test.go) |
+

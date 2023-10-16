@@ -16,4 +16,4 @@
 | 11. Convert string to integer without using any in-built functions.  | [to_int_test.go](./to_int_test.go)  |
 | 12. Given a string s, return the number of palindromic substrings in it. | [palindromic_substring_test.go](./palindromic_substring_test.go)  |
 | 13. Check if two strings are isomorphic | [isomophic_test.go](./isomophic_test.go)  |
-| 14. Maximum Number of Vowels in a Substring of Given Length | [./max_vowels_test.go](./max_vowels_test.go)  |
+| 14. Maximum Number of Vowels in a Substring of Given Length | [max_vowels_test.go](./max_vowels_test.go)  |

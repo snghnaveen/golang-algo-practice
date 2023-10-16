@@ -39,4 +39,4 @@
 | 34. Brick wall | [brick_wall_test.go](./brick_wall_test.go) |
 | 35. Square root | [sqrt_test.go](./sqrt_test.go) |
 | 36. Single Element in a Sorted Array | [single_element_test.go](./single_element_test.go) |
-
+| 37. Count the number of possible triangles | [possible_triangles_test.go](./possible_triangles_test.go) |

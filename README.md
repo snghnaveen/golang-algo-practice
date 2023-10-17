@@ -9,7 +9,7 @@ Programs are written in form of `go test` cases. They are in fully working condi
 ### Running test cases
 
 Prerequisite :
-- go1.20
+- go1.21
 - Docker (optional)
 
 Test (Docker) :
@@ -55,10 +55,12 @@ OR
 | `Array`   | [array](./array) | [README](./array/README.md)
 | `LinkedList`   | [linkedlist](./linkedlist) | [README](./linkedlist/README.md)
 | `Stack`   | [stack](./stack) | [README](./stack/README.md)
+| `Queue`   | [queue](./queue/) | [README](./queue/README.md)
 | `Search`   | [search](./search) | [README](./search/README.md)
 | `Sorting`   | [sorting](./sorting) | [README](./sorting/README.md)
 | `JSON Parsing`   | [json](./json) | [README](./json/README.md)
 | `Concurrency`   | [concurrency](./concurrency) | [README](./concurrency/README.md)
+| `Tree`   | [tree](./tree/) | [README](./tree/README.md)
 
 
 

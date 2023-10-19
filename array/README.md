@@ -41,4 +41,4 @@
 | 36. Single Element in a Sorted Array | [single_element_test.go](./single_element_test.go) |
 | 37. Count the number of possible triangles | [possible_triangles_test.go](./possible_triangles_test.go) |
 | 38. Subarray Sum Equals K | [subarray_sum_k_test.go](./subarray_sum_k_test.go) |
-
+| 39. Find the Index of the First Occurrence in a String | [first_idx_test.go](./first_idx_test.go) |

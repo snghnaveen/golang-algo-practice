@@ -44,9 +44,6 @@ func TestMaxVowels(t *testing.T) {
 }
 
 func RunMaxVowels(s string, k int) int {
-
-	res := 0
-
 	vowels := map[byte]struct{}{
 		'a': {},
 		'e': {},

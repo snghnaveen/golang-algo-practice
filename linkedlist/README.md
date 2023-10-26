@@ -10,3 +10,6 @@
 | 5. Remove Linked List Elements  | [remove_elements_test.go](./remove_elements_test.go)  |
 | 6. Check if Linked List is Palindrome | [palindrome_test.go](./palindrome_test.go)  |
 | 7. Add two numbers | [add_number_test.go](./add_number_test.go)  |
+| 8. Reverse linked list | [reverse_test.go](./reverse_test.go)  |
+| 9. Merge sorted linked list | [merge_sorted_test.go](./merge_sorted_test.go)  |
+| 10. Remove duplicates from sorted linked list | [remove_duplicate_sorted_test.go](./remove_duplicate_sorted_test.go)  |

@@ -42,4 +42,4 @@
 | 37. Count the number of possible triangles | [possible_triangles_test.go](./possible_triangles_test.go) |
 | 38. Subarray Sum Equals K | [subarray_sum_k_test.go](./subarray_sum_k_test.go) |
 | 39. Find the Index of the First Occurrence in a String | [first_idx_test.go](./first_idx_test.go) |
-| 40. Trapping Rain Water | [tipping_rain_test.go](./tipping_rain_test.go) |
+| 40.  Find First and Last Position of Element in Sorted Array | [first_last_sorted_test.go](./first_last_sorted_test.go) |

@@ -18,3 +18,4 @@
 | 13. Check if two strings are isomorphic | [isomophic_test.go](./isomophic_test.go)  |
 | 14. Maximum Number of Vowels in a Substring of Given Length | [max_vowels_test.go](./max_vowels_test.go)  |
 | 15. Optimal Partition of String | [optimal_partition_test.go](./optimal_partition_test.go)  |
+| 16. Add string numbers | [add_strings_test.go](./add_strings_test.go)  |

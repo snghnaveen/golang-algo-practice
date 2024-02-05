@@ -1,7 +1,6 @@
 package string
 
 import (
-	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

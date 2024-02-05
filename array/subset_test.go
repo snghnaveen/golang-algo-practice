@@ -7,66 +7,66 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestIsSubset(t *testing.T) {
+func TestSubset(t *testing.T) {
 	t.Log(`
-	Given two arrays: arr1[0..m-1] and arr2[0..n-1]. 
-	Find whether arr2[] is a subset of arr1[] or not. 
-	Both arrays are not in sorted order. 
-	It may be assumed that elements in both arrays are distinct.
-	Examples: 
+	Given an integer array nums of unique elements, return all possible subsets.
+	The solution set must not contain duplicate subsets.
+	
+	Example 1:
+	Input: nums = [1,2,3]
+	Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 
-	Input: arr1[] = {11, 1, 13, 21, 3, 7}, arr2[] = {11, 3, 7, 1} 
-	Output: arr2[] is a subset of arr1[]
-
-	Input: arr1[] = {1, 2, 3, 4, 5, 6}, arr2[] = {1, 2, 4} 
-	Output: arr2[] is a subset of arr1[]
-
-
-	Input: arr1[] = {10, 5, 2, 23, 19}, arr2[] = {19, 5, 3} 
-	Output: arr2[] is not a subset of arr1[] 
+	Example 2:
+	Input: nums = [0]
+	Output: [[],[0]]
 	`)
-
 	t.Run("Suite 1", func(t *testing.T) {
-		assert.True(t, RunIsSubset(
-			[]int{11, 1, 13, 21, 3, 7},
-			[]int{11, 3, 7, 1},
-		))
+		nums := []int{1, 2, 3}
+		exp := [][]int{
+			{},
+			{1},
+			{2},
+			{3},
+			{1, 2},
+			{1, 3},
+			{2, 3},
+			{1, 2, 3},
+		}
+		assert.ElementsMatch(t, exp, RunSubset(nums))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
-		assert.True(t, RunIsSubset(
-			[]int{1, 2, 3, 4, 5, 6},
-			[]int{1, 2, 4},
-		))
-	})
+		nums := []int{3, 2, 4, 1}
 
-	t.Run("Suite 2", func(t *testing.T) {
-		assert.False(t, RunIsSubset(
-			[]int{10, 5, 2, 23, 19},
-			[]int{19, 5, 3},
-		))
+		exp := [][]int{
+			{}, {3}, {2}, {2, 3}, {4}, {3, 4}, {2, 4}, {2, 3, 4}, {1}, {1, 3}, {1, 2}, {1, 2, 3}, {1, 4}, {1, 3, 4}, {1, 2, 4}, {1, 2, 3, 4},
+		}
+		assert.ElementsMatch(t, exp, RunSubset(nums))
 	})
 }
 
-func RunIsSubset(arr1, arr2 []int) bool {
-	sort.Ints(arr1)
-	sort.Ints(arr2)
+func RunSubset(nums []int) [][]int {
+	var res [][]int
+	var subset []int
+	subsetDFS(nums, &res, subset, 0)
 
-	arr1Len := len(arr1)
-	arr2Len := len(arr2)
+	for _, x := range res {
+		sort.Ints(x)
+	}
+	return res
+}
 
-	var i, j int
-
-	for i < arr1Len && j < arr2Len {
-		if arr1[i] == arr2[j] {
-			i++
-			j++
-		} else if arr1[i] < arr2[j] {
-			i++
-		} else if arr1[i] > arr2[j] {
-			return false
-		}
+func subsetDFS(nums []int, res *[][]int, subset []int, i int) {
+	if i >= len(nums) {
+		temp := make([]int, len(subset))
+		copy(temp, subset)
+		*res = append(*res, temp)
+		return
 	}
 
-	return true
+	subset = append(subset, nums[i])
+	subsetDFS(nums, res, subset, i+1)
+
+	subset = subset[:len(subset)-1]
+	subsetDFS(nums, res, subset, i+1)
 }

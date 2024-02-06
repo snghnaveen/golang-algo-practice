@@ -19,6 +19,7 @@ func TestIsPalindrome(t *testing.T) {
 		}
 
 		assert.True(t, RunIsPalindrome(ll))
+		assert.True(t, RunIsPalindromeRev(ll))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
@@ -28,6 +29,7 @@ func TestIsPalindrome(t *testing.T) {
 		}
 
 		assert.False(t, RunIsPalindrome(ll))
+		assert.False(t, RunIsPalindromeRev(ll))
 	})
 
 	t.Run("Suite 3", func(t *testing.T) {
@@ -37,9 +39,47 @@ func TestIsPalindrome(t *testing.T) {
 		}
 
 		assert.True(t, RunIsPalindrome(ll))
+		assert.True(t, RunIsPalindromeRev(ll))
 	})
 }
 
+func RunIsPalindromeRev(l *i.LinkedList) bool {
+	slow := l.Head
+	fast := l.Head
+
+	for fast != nil && fast.Next != nil {
+		slow = slow.Next
+		fast = fast.Next.Next
+	}
+
+	// reverse 2nd half
+	cur := slow
+	var prev *i.Node
+	for cur != nil {
+		nextNode := cur.Next
+
+		cur.Next = prev
+		prev = cur
+
+		cur = nextNode
+	}
+	slow = prev
+
+	// compare
+	listA := l.Head
+	listB := slow
+	for listA != nil && listB != nil {
+		if listA.Info != listB.Info {
+			return false
+		}
+		listA = listA.Next
+		listB = listB.Next
+	}
+
+	return true
+}
+
+// using stack
 func RunIsPalindrome(l *i.LinkedList) bool {
 	slow := l.Head
 	fast := l.Head

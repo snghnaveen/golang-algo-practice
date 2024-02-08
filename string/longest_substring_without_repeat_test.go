@@ -1,7 +1,6 @@
 package string
 
 import (
-	"strings"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -43,28 +42,33 @@ func TestLongestSubstringWithoutRepeatingChars(t *testing.T) {
 		exp := 3
 		assert.Equal(t, exp, RunLongestSubstringWithoutRepeatingChars(in))
 	})
+	t.Run("Suite 4", func(t *testing.T) {
+		in := "aab"
+		exp := 2
+		assert.Equal(t, exp, RunLongestSubstringWithoutRepeatingChars(in))
+	})
 }
 
 func RunLongestSubstringWithoutRepeatingChars(s string) int {
-	var max int
-	sArr := strings.Split(s, "")
+	var maxLen int
 	mp := make(map[string]struct{})
 
 	l := 0
 	r := 0
-	for i := 0; i < len(sArr); i++ {
-		if _, ok := mp[sArr[i]]; ok {
-			delete(mp, sArr[l])
-			l++
-		} else {
-			mp[sArr[i]] = struct{}{}
-			tmpMax := r - l + 1
-			if tmpMax > max {
-				max = tmpMax
+	for i, v := range s {
+		ch := string(v)
+		for l < r {
+			if _, ok := mp[string(s[i])]; ok {
+				delete(mp, string(s[l]))
+				l++
+			} else {
+				break
 			}
-			r++
 		}
+		mp[ch] = struct{}{}
+		maxLen = max(maxLen, r-l+1)
+		r++
 	}
 
-	return max
+	return maxLen
 }

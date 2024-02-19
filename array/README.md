@@ -33,7 +33,7 @@
 | 28. Print pascal triangle | [pascal_triangle_test.go](./pascal_triangle_test.go)  |
 | 29. Replace Elements with Greatest Element on Right Side | [replace_greatest_test.go](./replace_greatest_test.go) |
 | 30. Is Subsequence | [is_subsequence_test.go](./is_subsequence_test.go) |
-| 32. Unique Email | [unique_email_test](./unique_email_test) |
+| 32. Unique Email | [unique_email_test.go](./unique_email_test.go) |
 | 33. Majority Element | [majority_element_test.go](./majority_element_test.go) |
 | 34. Brick wall | [brick_wall_test.go](./brick_wall_test.go) |
 | 35. Square root | [sqrt_test.go](./sqrt_test.go) |

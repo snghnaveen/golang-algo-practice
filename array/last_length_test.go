@@ -54,7 +54,7 @@ func RunLengthOfLastWord(s string) int {
 		i--
 	}
 
-	for i > 0 && s[i] != ' ' {
+	for i >= 0 && s[i] != ' ' {
 		l++
 		i--
 	}

@@ -2,7 +2,6 @@ package string
 
 import (
 	"strconv"
-	"strings"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -33,30 +32,16 @@ func TestCompressionMechanism(t *testing.T) {
 }
 
 func RunGetCompression(in string) string {
-	strArr := strings.Split(in, "")
-	strArrLen := len(strArr)
-
-	if strArrLen == 0 {
-		return ""
-	}
-
-	out := strArr[0]
+	compressed := ""
 	count := 1
 
-	for i := 1; i < strArrLen; i++ {
-
-		current := strArr[i]
-		previous := strArr[i-1]
-
-		if current == previous {
+	for i := 0; i < len(in); i++ {
+		if i+1 < len(in) && in[i] == in[i+1] {
 			count++
 		} else {
-			out += strconv.Itoa(count)
+			compressed = compressed + string(in[i]) + strconv.Itoa(count)
 			count = 1
-			out += current
 		}
 	}
-
-	out += strconv.Itoa(count)
-	return out
+	return compressed
 }

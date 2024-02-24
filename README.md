@@ -1,3 +1,4 @@
+
 # golang-algo-practice 
 
 ![golang-algo-practice-build](https://github.com/snghnaveen/golang-algo-practice/actions/workflows/push.yaml/badge.svg)
@@ -35,31 +36,41 @@ OR
 
 ### Directory structure
 ```
-├── Makefile
-├── README.md
+.
 ├── array
-│   └── 
-├── go.mod
-├── go.sum
-├── internal <----- For datastructure like linked list, stack etc.
-├── main.go
-└── string
-    └── 
+│   └── # questions realted to array
+├── backtracking
+├── basics
+├── concurrency
+├── internal  <----- For datastructure like linked list, stack etc.
+├── json
+├── linkedlist
+├── matrix
+├── queue
+├── search
+├── sorting
+├── stack
+├── string
+└── tree
 ```
 
 
 ### Index
 | Type / Category  |     Source         | Content   |
 | ---------- |       -------      | -----  |
-| `String`   | [string](./string) | [README](./string/README.md)
 | `Array`   | [array](./array) | [README](./array/README.md)
+| `Backtracking`   | [backtracking](./backtracking) | [README](./backtracking/README.md)
+| `Basics`   | [basics](./basics) | [README](./basics/README.md)
+| `Concurrency`   | [concurrency](./concurrency) | [README](./concurrency/README.md)
+| `Json`   | [json](./json) | [README](./json/README.md)
 | `LinkedList`   | [linkedlist](./linkedlist) | [README](./linkedlist/README.md)
+| `Matrix`   | [matrix](./matrix) | [README](./matrix/README.md)
 | `Stack`   | [stack](./stack) | [README](./stack/README.md)
 | `Queue`   | [queue](./queue/) | [README](./queue/README.md)
 | `Search`   | [search](./search) | [README](./search/README.md)
 | `Sorting`   | [sorting](./sorting) | [README](./sorting/README.md)
+| `String`   | [string](./string) | [README](./string/README.md)
 | `JSON Parsing`   | [json](./json) | [README](./json/README.md)
-| `Concurrency`   | [concurrency](./concurrency) | [README](./concurrency/README.md)
 | `Tree`   | [tree](./tree/) | [README](./tree/README.md)
 
 
@@ -77,3 +88,6 @@ OR
 - https://leetcode.com/problems/number-of-islands/
 -https://leetcode.com/problems/merge-intervals/description/
 -https://leetcode.com/problems/zigzag-conversion/
+https://leetcode.com/problems/string-compression/description/
+https://leetcode.com/problems/furthest-building-you-can-reach/description/
+https://leetcode.com/problems/integer-to-roman/description/?envType=study-plan-v2&envId=top-interview-150

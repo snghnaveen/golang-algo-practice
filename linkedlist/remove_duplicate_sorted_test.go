@@ -1,7 +1,6 @@
 package linkedlist
 
 import (
-	"fmt"
 	"testing"
 
 	l "github.com/snghnaveen/golang-algo-practice/internal"
@@ -10,7 +9,8 @@ import (
 
 func TestDuplicateElementsSorted(t *testing.T) {
 	t.Log(`
-	Given the head of a sorted linked list, delete all duplicates such that each element appears only once. 
+	Given the head of a sorted linked list, delete all duplicates 
+	such that each element appears only once. 
 	Return the linked list sorted as well.
 	`)
 
@@ -23,7 +23,6 @@ func TestDuplicateElementsSorted(t *testing.T) {
 		DuplicateElementsSorted(ll)
 
 		exp := []int{1, 2}
-		fmt.Println(ll.GetAllValuesAsArr(), "--------")
 		assert.Equal(t, exp, ll.GetAllValuesAsArr())
 	})
 

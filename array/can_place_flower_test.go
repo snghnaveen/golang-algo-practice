@@ -42,6 +42,11 @@ func TestCanPlaceFlower(t *testing.T) {
 		n := 2
 		assert.True(t, RunCanPlaceFlower(in, n))
 	})
+	t.Run("Suite 4", func(t *testing.T) {
+		in := []int{0, 1, 0, 1, 0, 1, 0, 0}
+		n := 1
+		assert.True(t, RunCanPlaceFlower(in, n))
+	})
 
 }
 
@@ -53,8 +58,8 @@ func RunCanPlaceFlower(flowerbed []int, n int) bool {
 			(i == 0 || flowerbed[i-1] == 0) &&
 			(i == l-1 || flowerbed[i+1] == 0) {
 			n--
+			flowerbed[i] = 1
 		}
-		i++
 	}
 
 	return n <= 0

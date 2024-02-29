@@ -36,6 +36,7 @@ func TestMaximumDepth(t *testing.T) {
 
 		exp := 3
 		assert.Equal(t, exp, RunMaximumDepth(bt.Root))
+		assert.Equal(t, exp, RunMaximumDepthRec(bt.Root))
 	})
 }
 
@@ -70,4 +71,14 @@ func RunMaximumDepth(root *i.TNode) int {
 	}
 
 	return height
+}
+
+func RunMaximumDepthRec(root *i.TNode) int {
+	if root == nil {
+		return 0
+	}
+	leftHeight := RunMaximumDepth(root.Left)
+	rightHeight := RunMaximumDepth(root.Right)
+
+	return 1 + max(leftHeight, rightHeight)
 }

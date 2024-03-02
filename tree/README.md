@@ -9,7 +9,8 @@
 | 3. Maximum depth of Binary Tree | [maximum_depth_test.go](./maximum_depth_test.go)  |
 | 4. Merge two Binary Tree | [merge_test.go](./merge_test.go)  |
 | 5. Same Tree | [merge_test.go](./is_same_test.go)  |
-| 5. Path Sum| [path_sum_test.go](./path_sum_test.go)  |
+| 6. Path Sum| [path_sum_test.go](./path_sum_test.go)  |
+| 7. Even Odd Tree| [even_odd_test.go](./even_odd_test.go)  |
 
 
 ### Quick Reference :

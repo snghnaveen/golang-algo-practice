@@ -43,5 +43,7 @@
 | 39. Find the Index of the First Occurrence in a String | [first_idx_test.go](./first_idx_test.go) |
 | 40. Find First and Last Position of Element in Sorted Array | [first_last_sorted_test.go](./first_last_sorted_test.go) |
 | 41. Return all subset | [subset_test.go](./subset_test.go) |
-| 41. Continuous Subarray Sum | [continuous_subarr_test.go](./continuous_subarr_test.go) |
+| 42. Continuous Subarray Sum | [continuous_subarr_test.go](./continuous_subarr_test.go) |
+| 43. Squares of a Sorted Array | [sorted_squares_test.go](./sorted_squares_test.go) |
+
 

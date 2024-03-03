@@ -13,5 +13,6 @@
 | 8. Reverse linked list | [reverse_test.go](./reverse_test.go)  |
 | 9. Merge sorted linked list | [merge_sorted_test.go](./merge_sorted_test.go)  |
 | 10. Remove duplicates from sorted linked list | [remove_duplicate_sorted_test.go](./remove_duplicate_sorted_test.go)  |
-| 10. Reorder List | [reorder_test.go](./reorder_test.go)  |
-| 11. Linked List Cycle | [cycle_test.go](./cycle_test.go)  |
+| 11. Reorder List | [reorder_test.go](./reorder_test.go)  |
+| 12. Linked List Cycle | [cycle_test.go](./cycle_test.go)  |
+| 13. Remove Nth Node From End of List | [remove_nth_test.go](./remove_nth_test.go)  |

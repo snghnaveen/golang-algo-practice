@@ -45,7 +45,8 @@
 | 41. Return all subset | [subset_test.go](./subset_test.go) |
 | 42. Continuous Subarray Sum | [continuous_subarr_test.go](./continuous_subarr_test.go) |
 | 43. Squares of a Sorted Array | [sorted_squares_test.go](./sorted_squares_test.go) |
-| 43. Bag of Tokens | [bag_of_tokens_test.go](./bag_of_tokens_test.go) |
+| 44. Bag of Tokens | [bag_of_tokens_test.go](./bag_of_tokens_test.go) |
+| 45. Minimum Length of String After Deleting Similar Ends | [delete_similar_test.go](./delete_similar_test.go) |
 
 
 

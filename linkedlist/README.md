@@ -16,3 +16,4 @@
 | 11. Reorder List | [reorder_test.go](./reorder_test.go)  |
 | 12. Linked List Cycle | [cycle_test.go](./cycle_test.go)  |
 | 13. Remove Nth Node From End of List | [remove_nth_test.go](./remove_nth_test.go)  |
+| 14. Remove Zero Sum Consecutive Nodes from Linked List | [remove_zero_sum_test.go](./remove_zero_sum_test.go)  |

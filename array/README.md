@@ -48,6 +48,7 @@
 | 44. Bag of Tokens | [bag_of_tokens_test.go](./bag_of_tokens_test.go) |
 | 45. Minimum Length of String After Deleting Similar Ends | [delete_similar_test.go](./delete_similar_test.go) |
 | 45. Find the Pivot Integer | [pivot_element_test.go](./pivot_element_test.go) |
+| 46. Contiguous Array | [contiguous_test.go](./contiguous_test.go) |
 
 
 

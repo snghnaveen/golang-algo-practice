@@ -74,6 +74,27 @@ OR
 | `Tree`   | [tree](./tree/) | [README](./tree/README.md)
 
 
+### Cheatsheet
+
+<details>
+    <summary> Find middle element </summary>
+
+```
+mid := left + (right - left) / 2
+```
+
+</details>
+
+---
+
+<details>
+    <summary> String to rune </summary>
+
+```
+runes := []rune(str)
+```
+
+</details>
 
 ### TODO
 - https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/

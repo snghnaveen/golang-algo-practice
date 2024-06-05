@@ -23,3 +23,4 @@
 | 18. Lenght of Last word | [last_length_test.go](./last_length_test.go) |
 | 19. Reverse Words in a String | [reverse_test.go](./reverse_test.go) |
 | 20. Longest Palindrome | [longest_palindrome_test.go](./longest_palindrome_test.go) |
+| 21. Find Common Characters | [common_char_test.go](./common_char_test.go) |

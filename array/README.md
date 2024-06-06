@@ -50,6 +50,6 @@
 | 45. Find the Pivot Integer | [pivot_element_test.go](./pivot_element_test.go) |
 | 46. Contiguous Array | [contiguous_test.go](./contiguous_test.go) |
 | 47. Minimum Number of Arrows to Burst Balloons | [min_arrow_test.go](./min_arrow_test.go) |
-
+| 48. Hand of Straights | [hand_of_straights_test.go](./hand_of_straights_test.go) |
 
 

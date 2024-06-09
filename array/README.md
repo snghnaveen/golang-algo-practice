@@ -51,5 +51,5 @@
 | 46. Contiguous Array | [contiguous_test.go](./contiguous_test.go) |
 | 47. Minimum Number of Arrows to Burst Balloons | [min_arrow_test.go](./min_arrow_test.go) |
 | 48. Hand of Straights | [hand_of_straights_test.go](./hand_of_straights_test.go) |
-
+| 49. Subarray Sums Divisible by K | [subarrays_div_by_k_test.go](./subarrays_div_by_k_test.go) |
 

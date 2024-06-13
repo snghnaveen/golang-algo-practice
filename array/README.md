@@ -53,3 +53,4 @@
 | 48. Hand of Straights | [hand_of_straights_test.go](./hand_of_straights_test.go) |
 | 49. Subarray Sums Divisible by K | [subarrays_div_by_k_test.go](./subarrays_div_by_k_test.go) |
 | 50. Relative Sort ArrayK | [relative_sort_test.go](./relative_sort_test.go) |
+| 51. Minimum Number of Moves to Seat Everyone | [min_moves_to_seat_test.go](./min_moves_to_seat_test.go) |

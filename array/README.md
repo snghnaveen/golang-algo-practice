@@ -55,3 +55,5 @@
 | 50. Relative Sort ArrayK | [relative_sort_test.go](./relative_sort_test.go) |
 | 51. Minimum Number of Moves to Seat Everyone | [min_moves_to_seat_test.go](./min_moves_to_seat_test.go) |
 | 52. Minimum Increment to Make Array Unique | [min_increment_for_unique_test.go](./min_increment_for_unique_test.go) |
+| 53. Sum of Square Numbers | [square_of_num_test.go](./square_of_num_test.go) |
+

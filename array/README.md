@@ -58,5 +58,6 @@
 | 53. Sum of Square Numbers | [square_of_num_test.go](./square_of_num_test.go) |
 | 54. Most Profit Assigning Work | [max_profit_assignment_test.go](./max_profit_assignment_test.go) |
 | 55. Minimum Number of Days to Make m Bouquets | [possible_bouquets_test.go](./possible_bouquets_test.go) |
-| 55. Grumpy Bookstore Owner | [grumpy_bookstore_test.go](./grumpy_bookstore_test.go) |
+| 56. Grumpy Bookstore Owner | [grumpy_bookstore_test.go](./grumpy_bookstore_test.go) |
+| 57. Count Number of Nice Subarrays | [nice_subarrays_test.go](./nice_subarrays_test.go) |
 

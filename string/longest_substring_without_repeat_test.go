@@ -51,21 +51,20 @@ func TestLongestSubstringWithoutRepeatingChars(t *testing.T) {
 
 func RunLongestSubstringWithoutRepeatingChars(s string) int {
 	var maxLen int
-	mp := make(map[string]struct{})
+	mp := make(map[rune]struct{})
 
 	l := 0
 	r := 0
-	for i, v := range s {
-		ch := string(v)
+	for _, v := range s {
 		for l < r {
-			if _, ok := mp[string(s[i])]; ok {
-				delete(mp, string(s[l]))
+			if _, ok := mp[v]; ok {
+				delete(mp, rune(s[l]))
 				l++
 			} else {
 				break
 			}
 		}
-		mp[ch] = struct{}{}
+		mp[v] = struct{}{}
 		maxLen = max(maxLen, r-l+1)
 		r++
 	}

@@ -10,7 +10,7 @@ Programs are written in form of `go test` cases. They are in fully working condi
 ### Running test cases
 
 Prerequisite :
-- go1.21
+- go1.23
 - Docker (optional)
 
 Test (Docker) :
@@ -113,3 +113,5 @@ https://leetcode.com/problems/string-compression/description/
 https://leetcode.com/problems/furthest-building-you-can-reach/description/
 https://leetcode.com/problems/integer-to-roman/description/?envType=study-plan-v2&envId=top-interview-150
 https://leetcode.com/problems/even-odd-tree/description/
+https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
+https://leetcode.com/problems/merge-nodes-in-between-zeros/submissions/1309505523/

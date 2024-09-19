@@ -61,3 +61,4 @@
 | 56. Grumpy Bookstore Owner | [grumpy_bookstore_test.go](./grumpy_bookstore_test.go) |
 | 57. Count Number of Nice Subarrays | [nice_subarrays_test.go](./nice_subarrays_test.go) |
 | 58. Spiral Matrix | [spiral_test.go](./spiral_test.go) |
+| 59. Minimum Size Subarray Sum | [min_sub_array_test.go](./min_sub_array_test.go) |

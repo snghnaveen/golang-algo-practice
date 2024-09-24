@@ -96,6 +96,27 @@ runes := []rune(str)
 
 </details>
 
+---
+
+<details>
+    <summary> Split a string into a slice of substrings based on whitespace </summary>
+
+```
+	str := "  Hello,   world!   This is   Go.  "
+
+	for i, v := range strings.Fields(str) {
+		fmt.Println(i, v)
+	}
+
+    // 0 Hello,
+    // 1 world!
+    // 2 This
+    // 3 is
+    // 4 Go.
+```
+
+</details>
+
 ### TODO
 - https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 - https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/

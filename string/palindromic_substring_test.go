@@ -1,7 +1,6 @@
 package string
 
 import (
-	"strings"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -50,30 +49,32 @@ func TestPalindromicSubstring(t *testing.T) {
 func RunPalindromicSubstring(s string) int {
 	var out int
 
-	arr := strings.Split(s, "")
-
-	for i := 0; i <= len(arr); i++ {
-
-		// odd
+	for i := range s {
+		// Here, countPalindrome is called with the same index (i, i) to find
+		// palindromes of odd (1) length. A palindrome can have a single
+		// character in the center (e.g., "racecar" identifies "e" when i is 3).
 		// <1>
 		// <-3->
 		// <--5-->
-		out = out + countPalindrome(arr, i, i)
+		out = out + countPalindrome(s, i, i)
 
-		// even
-		// <2>
-		// <-4->
-		// <--6-->
-		out = out + countPalindrome(arr, i, i+1)
+		// Here, countPalindrome is called with consecutive indices (i, i+1)
+		// to find palindromes of even (2) length. This accounts for cases
+		// where the palindrome is centered between two characters (e.g.,
+		// "abba" identifies "bb" when i is 1).
+		// <1,2>
+		// <-2,3->
+		// <--3,4-->
+		out = out + countPalindrome(s, i, i+1)
 	}
 
 	return out
 }
 
-func countPalindrome(arr []string, left, right int) int {
+func countPalindrome(s string, left, right int) int {
 	var count int
-	for left >= 0 && right < len(arr) && left <= right {
-		if arr[left] == arr[right] {
+	for left >= 0 && right < len(s) && left <= right {
+		if s[left] == s[right] {
 			count++
 			left--
 			right++

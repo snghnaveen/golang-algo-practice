@@ -56,22 +56,22 @@ OR
 
 
 ### Index
-| Type / Category  |     Source         | Content   |
-| ---------- |       -------      | -----  |
-| `Array`   | [array](./array) | [README](./array/README.md)
-| `Backtracking`   | [backtracking](./backtracking) | [README](./backtracking/README.md)
-| `Basics`   | [basics](./basics) | [README](./basics/README.md)
-| `Concurrency`   | [concurrency](./concurrency) | [README](./concurrency/README.md)
-| `Json`   | [json](./json) | [README](./json/README.md)
-| `LinkedList`   | [linkedlist](./linkedlist) | [README](./linkedlist/README.md)
-| `Matrix`   | [matrix](./matrix) | [README](./matrix/README.md)
-| `Stack`   | [stack](./stack) | [README](./stack/README.md)
-| `Queue`   | [queue](./queue/) | [README](./queue/README.md)
-| `Search`   | [search](./search) | [README](./search/README.md)
-| `Sorting`   | [sorting](./sorting) | [README](./sorting/README.md)
-| `String`   | [string](./string) | [README](./string/README.md)
-| `JSON Parsing`   | [json](./json) | [README](./json/README.md)
-| `Tree`   | [tree](./tree/) | [README](./tree/README.md)
+| Type / Category | Source                         | Content                            |
+| --------------- | ------------------------------ | ---------------------------------- |
+| `Array`         | [array](./array)               | [README](./array/README.md)        |
+| `Backtracking`  | [backtracking](./backtracking) | [README](./backtracking/README.md) |
+| `Basics`        | [basics](./basics)             | [README](./basics/README.md)       |
+| `Concurrency`   | [concurrency](./concurrency)   | [README](./concurrency/README.md)  |
+| `Json`          | [json](./json)                 | [README](./json/README.md)         |
+| `LinkedList`    | [linkedlist](./linkedlist)     | [README](./linkedlist/README.md)   |
+| `Matrix`        | [matrix](./matrix)             | [README](./matrix/README.md)       |
+| `Stack`         | [stack](./stack)               | [README](./stack/README.md)        |
+| `Queue`         | [queue](./queue/)              | [README](./queue/README.md)        |
+| `Search`        | [search](./search)             | [README](./search/README.md)       |
+| `Sorting`       | [sorting](./sorting)           | [README](./sorting/README.md)      |
+| `String`        | [string](./string)             | [README](./string/README.md)       |
+| `JSON Parsing`  | [json](./json)                 | [README](./json/README.md)         |
+| `Tree`          | [tree](./tree/)                | [README](./tree/README.md)         |
 
 
 ### Cheatsheet
@@ -107,11 +107,11 @@ runes := []rune(str)
 - Longest Increasing Subsequence (LIS)
 - https://github.com/ruppysuppy/Daily-Coding-Problem-Solutions
 - https://leetcode.com/problems/number-of-islands/
--https://leetcode.com/problems/merge-intervals/description/
--https://leetcode.com/problems/zigzag-conversion/
-https://leetcode.com/problems/string-compression/description/
-https://leetcode.com/problems/furthest-building-you-can-reach/description/
-https://leetcode.com/problems/integer-to-roman/description/?envType=study-plan-v2&envId=top-interview-150
-https://leetcode.com/problems/even-odd-tree/description/
-https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
-https://leetcode.com/problems/merge-nodes-in-between-zeros/submissions/1309505523/
+- https://leetcode.com/problems/merge-intervals/description/
+- https://leetcode.com/problems/zigzag-conversion/
+- https://leetcode.com/problems/string-compression/description/
+- https://leetcode.com/problems/furthest-building-you-can-reach/description/
+- https://leetcode.com/problems/integer-to-roman/description/?envType=study-plan-v2&envId=top-interview-150
+- https://leetcode.com/problems/even-odd-tree/description/
+- https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
+- https://leetcode.com/problems/merge-nodes-in-between-zeros/submissions/1309505523/

@@ -2,16 +2,16 @@
 
 
 ### Index
-| Question       | Source |
-| -------- |   ------------- |
-| 1. Invert a tree | [invert_test.go](./invert_test.go)  |
-| 2. Finding maximum element in binary tree | [find_max_test.go](./find_max_test.go)  |
-| 3. Maximum depth of Binary Tree | [maximum_depth_test.go](./maximum_depth_test.go)  |
-| 4. Merge two Binary Tree | [merge_test.go](./merge_test.go)  |
-| 5. Same Tree | [merge_test.go](./is_same_test.go)  |
-| 6. Path Sum| [path_sum_test.go](./path_sum_test.go)  |
-| 7. Even Odd Tree | [even_odd_test.go](./even_odd_test.go)  |
-| 8. Binary Search Tree to Greater Sum Tree | [bst_to_gst_test.go](./bst_to_gst_test.go)  |
+| Question                                  | Source                                           |
+| ----------------------------------------- | ------------------------------------------------ |
+| 1. Invert a tree                          | [invert_test.go](./invert_test.go)               |
+| 2. Finding maximum element in binary tree | [find_max_test.go](./find_max_test.go)           |
+| 3. Maximum depth of Binary Tree           | [maximum_depth_test.go](./maximum_depth_test.go) |
+| 4. Merge two Binary Tree                  | [merge_test.go](./merge_test.go)                 |
+| 5. Same Tree                              | [merge_test.go](./is_same_test.go)               |
+| 6. Path Sum                               | [path_sum_test.go](./path_sum_test.go)           |
+| 7. Even Odd Tree                          | [even_odd_test.go](./even_odd_test.go)           |
+| 8. Binary Search Tree to Greater Sum Tree | [bst_to_gst_test.go](./bst_to_gst_test.go)       |
 
 ### Quick Reference :
 ---

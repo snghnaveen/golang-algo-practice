@@ -7,6 +7,7 @@
 | 2. Minimum Size Subarray Sum                      | [Sliding Window](#sliding-window) | [min_sub_array_test.go](./array/min_sub_array_test.go)                                        |
 | 3. Sort Colors                                    | [Two Pointer](#two-pointer)       | [sort_0_1_2_test.go](./array/sort_0_1_2_test.go)                                              |
 | 4. Palindromic Substrings                         | [Two Pointer](#two-pointer)       | [palindromic_substring_test.go](./string/palindromic_substring_test.go)                       |
+| 5. Merge Sorted                                   | [Two Pointer](#two-pointer)       | [palindromic_substring_test.go](./array/merge_sorted_test.go)                                 |
 
 
 #### Sliding Window

@@ -62,3 +62,4 @@
 | 57. Count Number of Nice Subarrays                                                                                | [nice_subarrays_test.go](./nice_subarrays_test.go)                     |
 | 58. Spiral Matrix                                                                                                 | [spiral_test.go](./spiral_test.go)                                     |
 | 59. Minimum Size Subarray Sum                                                                                     | [min_sub_array_test.go](./min_sub_array_test.go)                       |
+| 60. Merge Sorted Array                                                                                            | [merge_sorted_test.go](./merge_sorted_test.go)                         |

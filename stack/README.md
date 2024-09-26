@@ -11,3 +11,4 @@
 | 6. Next greater element 1                                                                                          | [./next_greater_element_1_test.go](./next_greater_element_1_test.go) |
 | 7. Next greater element                                                                                            | [./next_greater_element_test.go](./next_greater_element_test.go)     |
 | 8. Baseball game                                                                                                   | [./baseball_game_test.go](./baseball_game_test.go)                   |
+| 9. Daily Temperatures                                                                                              | [./daily_temp_test.go](./daily_temp_test.go)                         |

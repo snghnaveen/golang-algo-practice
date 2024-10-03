@@ -3,9 +3,7 @@
 
 ![golang-algo-practice-build](https://github.com/snghnaveen/golang-algo-practice/actions/workflows/push.yaml/badge.svg)
 
-This repo contains various algorithms & data structure programs written in golang.
-Questions are taken from various sources like `geekforgeeks`, `leetcode` , `ChatGPT`, etc.
-Programs are written in form of `go test` cases. They are in fully working condition with multiple inputs.
+This repository includes a collection of algorithms and data structure programs implemented in Go. The problems are sourced from platforms such as `GeeksforGeeks`, `LeetCode`, `ChatGPT`, and others. Each program is written as Go test cases, ensuring they are fully functional and tested with multiple inputs.
 
 ### Running test cases
 
@@ -13,26 +11,13 @@ Prerequisite :
 - go1.23
 - Docker (optional)
 
-Test (Docker) :
+Test (using Docker) :
 - ``` docker-compose up```
 
-Test (build) :
+---
 
+Test (using go build) :
 - ```make tests```
-OR
-- Run all tests 
-    ```
-    go test -v ./...
-    ```
-- Run specific test
-    ```
-    go test -v -run TestCheckStringAreRotations ./...
-    ```
-
-- Clear test cache 
-    ```
-    go clean -testcache
-    ```
 
 ### Directory structure
 ```
@@ -77,6 +62,16 @@ OR
 ### Cheatsheet
 
 <details>
+    <summary> Delete last element in slice</summary>
+
+```
+s =  s[:len(s)-1]
+```
+</details>
+
+---
+
+<details>
     <summary> Find middle element </summary>
 
 ```
@@ -102,17 +97,17 @@ runes := []rune(str)
     <summary> Split a string into a slice of substrings based on whitespace </summary>
 
 ```
-	str := "  Hello,   world!   This is   Go.  "
+str := "  Hello,   world!   This is   Go.  "
 
-	for i, v := range strings.Fields(str) {
-		fmt.Println(i, v)
-	}
+for i, v := range strings.Fields(str) {
+    fmt.Println(i, v)
+}
 
-    // 0 Hello,
-    // 1 world!
-    // 2 This
-    // 3 is
-    // 4 Go.
+// 0 Hello,
+// 1 world!
+// 2 This
+// 3 is
+// 4 Go.
 ```
 
 </details>

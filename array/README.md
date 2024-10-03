@@ -63,3 +63,4 @@
 | 58. Spiral Matrix                                                                                                 | [spiral_test.go](./spiral_test.go)                                     |
 | 59. Minimum Size Subarray Sum                                                                                     | [min_sub_array_test.go](./min_sub_array_test.go)                       |
 | 60. Merge Sorted Array                                                                                            | [merge_sorted_test.go](./merge_sorted_test.go)                         |
+| 61. Non-overlapping Intervals                                                                                     | [erase_overlap_intervals_test.go](./erase_overlap_intervals_test.go)   |

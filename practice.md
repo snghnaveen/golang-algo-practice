@@ -1,6 +1,7 @@
 ### Index
 
 ### [Array](https://www.techinterviewhandbook.org/algorithms/array)
+
 | Question                                          | Category                          | Source                                                                                        |
 | ------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------- |
 | 1. Longest Substring Without Repeating Characters | [Sliding Window](#sliding-window) | [longest_substring_without_repeat_test.go](./string/longest_substring_without_repeat_test.go) |
@@ -9,6 +10,9 @@
 | 4. Palindromic Substrings                         | [Two Pointer](#two-pointer)       | [palindromic_substring_test.go](./string/palindromic_substring_test.go)                       |
 | 5. Merge Sorted                                   | [Two Pointer](#two-pointer)       | [palindromic_substring_test.go](./array/merge_sorted_test.go)                                 |
 | 6. Daily Temperatures                             | [Right to left](#right-to-left)   | [daily_temp_test.go](./stack/daily_temp_test.go)                                              |
+| 7. Product of Array Except Self                   | [Precomputation](#precomputation) | [product_except_self_test.go](./array/product_except_self_test.go)                            |
+| 8. Merge Intervals                                | [Sorting array](#sorting-array)   | [merge_interval_test.go](./array/merge_interval_test.go)                                      |
+| 8. Non-overlapping Intervals                      | [Sorting array](#sorting-array)   | [erase_overlap_intervals_test.go](./array/erase_overlap_intervals_test.go)                    |
 
 #### Sliding Window
 - 
@@ -17,4 +21,7 @@
 -
 
 #### Right to left
+-
+
+#### Sorting array
 -

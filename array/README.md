@@ -64,3 +64,4 @@
 | 59. Minimum Size Subarray Sum                                                                                     | [min_sub_array_test.go](./min_sub_array_test.go)                       |
 | 60. Merge Sorted Array                                                                                            | [merge_sorted_test.go](./merge_sorted_test.go)                         |
 | 61. Non-overlapping Intervals                                                                                     | [erase_overlap_intervals_test.go](./erase_overlap_intervals_test.go)   |
+| 62. First Missing Positive                                                                                        | [first_missing_pos_test.go](./first_missing_pos_test.go)               |

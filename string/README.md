@@ -25,3 +25,4 @@
 | 20. Longest Palindrome                                                                 | [longest_palindrome_test.go](./longest_palindrome_test.go)                                   |
 | 21. Find Common Characters                                                             | [common_char_test.go](./common_char_test.go)                                                 |
 | 22. Repalce Words                                                                      | [replace_words_test.go](./replace_words_test.go)                                             |
+| 23. Minimum Number of Swaps to Make the String Balanced                                | [min_swaps_test.go](./min_swaps_test.go)                                                 |

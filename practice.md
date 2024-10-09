@@ -18,7 +18,14 @@
 | 11. Container With Most Water                     | [Two Pointer](#two-pointer)                 | [most_water_test.go](./array/most_water_test.go)                                              |
 | 12. 3Sum                                          | [Two Pointer](#two-pointer)                 | [3sum_test.go](./array/3sum_test.go)                                                          |
 
-TestMaxSumContiguousArr
+
+### [String](https://www.techinterviewhandbook.org/algorithms/string)
+
+| Question                                   | Category                          | Source                                                        |
+| ------------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
+| 1. Longest Repeating Character Replacement | [Sliding Window](#sliding-window) | [char_replacement_test.go](./string/char_replacement_test.go) |
+
+
 #### Sliding Window
 - 
 

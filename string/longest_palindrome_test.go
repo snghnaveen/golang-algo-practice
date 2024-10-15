@@ -52,9 +52,14 @@ func RunLongestPlaindrome(s string) int {
 	}
 
 	for _, v := range mpCnt {
+		// The expression ((v / 2) * 2) gives the total number of characters that can be used in pairs:
+		// For v = 5: ((5 / 2) * 2) results in 4 (you can use 4 out of 5).
+		// For v = 4: ((4 / 2) * 2) results in 4 (you can use all 4).
+		// For v = 3: ((3 / 2) * 2) results in 2 (you can use 2 out of 3).
 		count = count + ((v / 2) * 2)
 	}
 
+	// to check if there is any character that can be placed in the center of the palindrome
 	if count < len(s) {
 		count++
 	}

@@ -28,3 +28,4 @@
 | 23. Minimum Number of Swaps to Make the String Balanced                                | [min_swaps_test.go](./min_swaps_test.go)                                                     |
 | 24. Longest Repeating Character Replacement                                            | [char_replacement_test.go](./char_replacement_test.go)                                       |
 | 25. Find All Anagrams in a String                                                      | [find_anagrams_test.go](./find_anagrams_test.go)                                             |
+| 25. Longest Palindromic Substring                                                      | [longest_palindrome_substring_test.go](./longest_palindrome_substring_test.go)               |

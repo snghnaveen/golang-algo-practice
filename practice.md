@@ -21,10 +21,12 @@
 
 ### [String](https://www.techinterviewhandbook.org/algorithms/string)
 
-| Question                                   | Category                          | Source                                                        |
-| ------------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1. Longest Repeating Character Replacement | [Sliding Window](#sliding-window) | [char_replacement_test.go](./string/char_replacement_test.go) |
-| 2. Find All Anagrams in a String | [Sliding Window](#sliding-window) | [find_anagrams_test.go](./string/find_anagrams_test.go) |
+| Question                                   | Category                          | Source                                                            |
+| ------------------------------------------ | --------------------------------- | ----------------------------------------------------------------- |
+| 1. Longest Repeating Character Replacement | [Sliding Window](#sliding-window) | [char_replacement_test.go](./string/char_replacement_test.go)     |
+| 2. Find All Anagrams in a String           | [Sliding Window](#sliding-window) | [find_anagrams_test.go](./string/find_anagrams_test.go)           |
+| 3. Longest Palindromic Substring           | [Sliding Window](#sliding-window) | [longest_palindrome_substring_test.go](./string/longest_palindrome_substring_test.go) |
+
 
 #### Sliding Window
 - 

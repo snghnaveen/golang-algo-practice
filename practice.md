@@ -32,6 +32,13 @@
 | ------------ | ------------------------- | --------------------------------------------------- |
 | 1. LRU Cache | [hast-table](#hast-table) | [lru_cache_test.go](./linkedlist/lru_cache_test.go) |
 
+
+### [Sorting-searching](https://www.techinterviewhandbook.org/algorithms/sorting-searching/)
+| Question                          | Category                                | Source                                                                 |
+| --------------------------------- | --------------------------------------- | ---------------------------------------------------------------------- |
+| 1. Search in Rotated Sorted Array | [Sorting-searching](#sorting-searching) | [search_sorted_rotated_test.go](./array/search_sorted_rotated_test.go) |
+| 2. Search a 2D Matrix             | [Sorting-searching](#sorting-searching) | [search_matrix_test.go](./matrix/search_matrix_test.go)                |
+
 #### Sliding Window
 - 
 

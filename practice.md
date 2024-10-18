@@ -28,9 +28,10 @@
 | 3. Longest Palindromic Substring           | [Sliding Window](#sliding-window) | [longest_palindrome_substring_test.go](./string/longest_palindrome_substring_test.go) |
 
 ### [Hash-table](https://www.techinterviewhandbook.org/algorithms/hash-table)
-| Question     | Category                  | Source                                              |
-| ------------ | ------------------------- | --------------------------------------------------- |
-| 1. LRU Cache | [hast-table](#hast-table) | [lru_cache_test.go](./linkedlist/lru_cache_test.go) |
+| Question                        | Category                  | Source                                                               |
+| ------------------------------- | ------------------------- | -------------------------------------------------------------------- |
+| 1. LRU Cache                    | [hast-table](#hast-table) | [lru_cache_test.go](./linkedlist/lru_cache_test.go)                  |
+| 2. Insert Delete GetRandom O(1) | [hast-table](#hast-table) | [insert_delete_random_test.go](./array/insert_delete_random_test.go) |
 
 
 ### [Sorting-searching](https://www.techinterviewhandbook.org/algorithms/sorting-searching/)

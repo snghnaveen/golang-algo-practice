@@ -65,3 +65,4 @@
 | 60. Merge Sorted Array                                                               | [merge_sorted_test.go](./merge_sorted_test.go)                         |
 | 61. Non-overlapping Intervals                                                        | [erase_overlap_intervals_test.go](./erase_overlap_intervals_test.go)   |
 | 62. First Missing Positive                                                           | [first_missing_pos_test.go](./first_missing_pos_test.go)               |
+| 62. Insert Delete GetRandom O(1)                                                     | [insert_delete_random_test.go](./insert_delete_random_test.go)         |

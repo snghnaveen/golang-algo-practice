@@ -27,7 +27,10 @@ func TestMergeSorted(t *testing.T) {
 
 		exp := []int{1, 1, 2, 3, 4, 4}
 
-		assert.Equal(t, exp, RunMergeSorted(ll1, ll2).GetAllValuesAsArr())
+		merged := l.NewLinkedList()
+		merged.Head = RunMergeSorted(ll1, ll2)
+
+		assert.Equal(t, exp, merged.GetAllValuesAsArr())
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
@@ -35,7 +38,11 @@ func TestMergeSorted(t *testing.T) {
 		ll2 := l.NewLinkedList()
 
 		exp := []int{}
-		assert.Equal(t, exp, RunMergeSorted(ll1, ll2).GetAllValuesAsArr())
+
+		merged := l.NewLinkedList()
+		merged.Head = RunMergeSorted(ll1, ll2)
+
+		assert.Equal(t, exp, merged.GetAllValuesAsArr())
 	})
 	t.Run("Suite 3", func(t *testing.T) {
 		ll1 := l.NewLinkedList()
@@ -43,39 +50,38 @@ func TestMergeSorted(t *testing.T) {
 		ll2.Insert(0)
 
 		exp := []int{0}
-		assert.Equal(t, exp, RunMergeSorted(ll1, ll2).GetAllValuesAsArr())
+
+		merged := l.NewLinkedList()
+		merged.Head = RunMergeSorted(ll1, ll2)
+
+		assert.Equal(t, exp, merged.GetAllValuesAsArr())
 	})
 
 }
 
-func RunMergeSorted(ll1, ll2 *l.LinkedList) *l.LinkedList {
-	out := l.NewLinkedList()
+func RunMergeSorted(ll1, ll2 *l.LinkedList) *l.Node {
+	dummy := &l.Node{}
+	tail := dummy
 
-	l1Node, l2Node := ll1.Head, ll2.Head
-	for l1Node != nil && l2Node != nil {
-		if l1Node.Info > l2Node.Info {
-			out.Insert(l2Node.Info)
-			l2Node = l2Node.Next
-		} else if l1Node.Info < l2Node.Info {
-			out.Insert(l1Node.Info)
-			l1Node = l1Node.Next
+	node1 := ll1.Head
+	node2 := ll2.Head
+
+	for node1 != nil && node2 != nil {
+		if node1.Info < node2.Info {
+			tail.Next = node1
+			node1 = node1.Next
 		} else {
-			out.Insert(l1Node.Info)
-			out.Insert(l2Node.Info)
-			l1Node = l1Node.Next
-			l2Node = l2Node.Next
+			tail.Next = node2
+			node2 = node2.Next
 		}
+		tail = tail.Next
 	}
 
-	for l1Node != nil {
-		out.Insert(l1Node.Info)
-		l1Node = l1Node.Next
+	if node1 != nil {
+		tail.Next = node1
+	} else if node2 != nil {
+		tail.Next = node2
 	}
 
-	for l2Node != nil {
-		out.Insert(l2Node.Info)
-		l2Node = l2Node.Next
-	}
-
-	return out
+	return dummy.Next
 }

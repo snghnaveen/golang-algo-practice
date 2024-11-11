@@ -46,6 +46,16 @@
 | -------------------- | ----------------- | --------------------------------------------- |
 | 1. Set Matrix Zeroes | [Matrix](#matrix) | [set_zero_test.go](./matrix/set_zero_test.go) |
 
+
+### [Matrix](https://www.techinterviewhandbook.org/algorithms/linked-list/)
+| Question                            | Category                    | Source                                                    |
+| ----------------------------------- | --------------------------- | --------------------------------------------------------- |
+| 1. Reverse Linked List              | [Linked List](#linked-list) | [reverse_test.go](./linkedlist/reverse_test.go)           |
+| 2. Linked List Cycle                | [Linked List](#linked-list) | [cycle_test.go](./linkedlist/cycle_test.go)               |
+| 3. Merge Two Sorted Lists           | [Linked List](#linked-list) | [merge_sorted_test.go](./linkedlist/merge_sorted_test.go) |
+| 4. Remove Nth Node From End of List | [Linked List](#linked-list) | [remove_nth_test.go](./linkedlist/remove_nth_test.go)     |
+
+
 #### Sliding Window
 - 
 

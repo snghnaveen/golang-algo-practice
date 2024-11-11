@@ -32,8 +32,5 @@ func TestCheckStringAreRotations(t *testing.T) {
 }
 
 func RunCheckStringAreRotations(str1, str2 string) bool {
-	if strings.Contains(str1+str1, str2) {
-		return true
-	}
-	return false
+	return strings.Contains(str1+str1, str2)
 }

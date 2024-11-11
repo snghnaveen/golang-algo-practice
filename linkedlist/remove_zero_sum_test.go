@@ -3,7 +3,6 @@ package linkedlist
 import (
 	"testing"
 
-	i "github.com/snghnaveen/golang-algo-practice/internal"
 	l "github.com/snghnaveen/golang-algo-practice/internal"
 	"github.com/stretchr/testify/assert"
 )
@@ -46,10 +45,10 @@ func TestRemoveZeroSumSublists(t *testing.T) {
 	})
 }
 
-func RunRemoveZeroSumSublists(ll *i.LinkedList) *i.LinkedList {
+func RunRemoveZeroSumSublists(ll *l.LinkedList) *l.LinkedList {
 	head := ll.Head
-	dummy := &i.Node{Info: 0, Next: head}
-	prefixSum := make(map[int]*i.Node)
+	dummy := &l.Node{Info: 0, Next: head}
+	prefixSum := make(map[int]*l.Node)
 	prefixSum[0] = dummy
 	sum := 0
 

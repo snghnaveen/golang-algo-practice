@@ -30,7 +30,7 @@ func TestToInt(t *testing.T) {
 func RunToInt(s string) int {
 	inp := []rune(s)
 	var out int
-	for i, _ := range inp {
+	for i := range inp {
 		if inp[i] >= '0' && inp[i] <= '9' {
 			out = out*10 + int(inp[i]) - '0'
 		}

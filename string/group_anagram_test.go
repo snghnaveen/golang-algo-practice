@@ -64,11 +64,8 @@ func RunGroupAnagram(in []string) [][]string {
 		sort.Strings(sArr)
 		s := strings.Join(sArr, "")
 
-		if _, ok := mp[s]; ok {
-			mp[s] = append(mp[s], in[i])
-		} else {
-			mp[s] = []string{in[i]}
-		}
+		mp[s] = append(mp[s], in[i])
+
 	}
 
 	for _, val := range mp {

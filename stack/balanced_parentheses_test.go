@@ -1,7 +1,6 @@
 package stack
 
 import (
-	"strings"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -33,10 +32,10 @@ func TestBalancedParentheses(t *testing.T) {
 func RunTestBalancedParentheses(str string) bool {
 	stk := s.NewStringStack()
 
-	for _, v := range strings.Split(str, "") {
+	for _, v := range str {
 
-		if v == "(" || v == "[" || v == "{" {
-			stk.Push(v)
+		if v == '(' || v == '[' || v == '{' {
+			stk.Push(string(v))
 			continue
 		}
 
@@ -49,16 +48,16 @@ func RunTestBalancedParentheses(str string) bool {
 		}
 
 		switch v {
-		case "]":
+		case ']':
 			if stk.Pop() != "[" {
 				return false
 			}
 
-		case "}":
+		case '}':
 			if stk.Pop() != "{" {
 				return false
 			}
-		case ")":
+		case ')':
 			if stk.Pop() != "(" {
 				return false
 			}

@@ -12,3 +12,4 @@
 | 7. Next greater element                                                                                            | [next_greater_element_test.go](./next_greater_element_test.go)     |
 | 8. Baseball game                                                                                                   | [baseball_game_test.go](./baseball_game_test.go)                   |
 | 9. Daily Temperatures                                                                                              | [daily_temp_test.go](./daily_temp_test.go)                         |
+| 9. Asteroid Collision                                                                                              | [asteroid_collision_test.go](./asteroid_collision_test.go)                         |

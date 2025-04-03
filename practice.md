@@ -57,15 +57,16 @@
 
 
 ### [Queue](https://www.techinterviewhandbook.org/algorithms/queue/)
-| Question                        | Category        | Source                                   |
-| ------------------------------- | --------------- | ---------------------------------------- |
+| Question                        | Category        | Source                                 |
+| ------------------------------- | --------------- | -------------------------------------- |
 | 1. Implement Queue using Stacks | [Queue](#queue) | [queue_test.go](./stack/queue_test.go) |
 
 ### [Stack](https://www.techinterviewhandbook.org/algorithms/stack/)
-| Question                        | Category        | Source                                   |
-| ------------------------------- | --------------- | ---------------------------------------- |
-| 1. Valid Parentheses | [Stack](#stack) | [balanced_parentheses_test.go](./stack/balanced_parentheses_test.go) |
-| 2. Min Stack | [Queue](#stack) | [min_test.go](./stack/min_test.go) |
+| Question              | Category        | Source                                                               |
+| --------------------- | --------------- | -------------------------------------------------------------------- |
+| 1. Valid Parentheses  | [Stack](#stack) | [balanced_parentheses_test.go](./stack/balanced_parentheses_test.go) |
+| 2. Min Stack          | [Queue](#stack) | [min_test.go](./stack/min_test.go)                                   |
+| 3. Asteroid Collision | [Stack](#stack) | [asteroid_collision_test.go](./stack/asteroid_collision_test.go)     |
 
 
 

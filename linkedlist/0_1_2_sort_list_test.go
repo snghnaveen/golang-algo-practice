@@ -8,6 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// @todo update
 func Test012SortLinkedList(t *testing.T) {
 	t.Log(`
 	You are given a Linked List with nodes that have values 0, 1 or 2. Sort the linked list.

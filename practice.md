@@ -62,12 +62,13 @@
 | 1. Implement Queue using Stacks | [Queue](#queue) | [queue_test.go](./stack/queue_test.go) |
 
 ### [Stack](https://www.techinterviewhandbook.org/algorithms/stack/)
-| Question              | Category        | Source                                                               |
-| --------------------- | --------------- | -------------------------------------------------------------------- |
-| 1. Valid Parentheses  | [Stack](#stack) | [balanced_parentheses_test.go](./stack/balanced_parentheses_test.go) |
-| 2. Min Stack          | [Queue](#stack) | [min_test.go](./stack/min_test.go)                                   |
-| 3. Asteroid Collision | [Stack](#stack) | [asteroid_collision_test.go](./stack/asteroid_collision_test.go)     |
+| Question               | Category        | Source                                                               |
+| ---------------------- | --------------- | -------------------------------------------------------------------- |
+| 1. Valid Parentheses   | [Stack](#stack) | [balanced_parentheses_test.go](./stack/balanced_parentheses_test.go) |
+| 2. Min Stack           | [Queue](#stack) | [min_test.go](./stack/min_test.go)                                   |
+| 3. Asteroid Collision  | [Stack](#stack) | [asteroid_collision_test.go](./stack/asteroid_collision_test.go)     |
 | 3. Basic Calculator II | [Stack](#stack) | [basic_calculator_2_test.go](./stack/basic_calculator_2_test.go)     |
+| 4. Daily Temperatures  | [Stack](#stack) | [daily_temp_test.go](./stack/daily_temp_test.go)                     |
 
 
 

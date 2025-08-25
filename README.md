@@ -62,12 +62,39 @@ Test (using go build) :
 ### Cheatsheet
 
 <details>
-    <summary> Delete last element in slice</summary>
+    <summary> Delete / pop last element in slice</summary>
 
 ```
 s =  s[:len(s)-1]
 ```
 </details>
+
+---
+
+<details>
+    <summary> Delete / pop first element in slice</summary>
+
+```
+s =  s[1:]
+```
+</details>
+
+---
+
+<details>
+    <summary> Add element in front slice</summary>
+
+```
+// add 122 at at index 0
+m = slices.Insert(m, 0, 122)
+```
+or
+```
+temp = append(temp, 0)
+temp = append([]int{0}, temp...)
+```
+</details>
+
 
 ---
 

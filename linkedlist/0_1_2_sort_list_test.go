@@ -8,8 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-// @todo update
 func Test012SortLinkedList(t *testing.T) {
+	t.Log(`Link : https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1`)
+
 	t.Log(`
 	You are given a Linked List with nodes that have values 0, 1 or 2. Sort the linked list.
 	`)
@@ -45,38 +46,26 @@ func Test012SortLinkedList(t *testing.T) {
 }
 
 func RunTest012SortLinkedList(ll *i.LinkedList) i.LinkedList {
+	count := make([]int, 3)
 
-	zeroLL := i.NewLinkedList()
-	oneLL := i.NewLinkedList()
-	twoLL := i.NewLinkedList()
+	current := ll.Head
 
-	node := ll.Head
-	for node != nil {
-		switch node.Info {
-		case 0:
-			zeroLL.Insert(0)
-		case 1:
-			oneLL.Insert(1)
-		case 2:
-			twoLL.Insert(2)
+	for current != nil {
+		count[current.Info]++
+		current = current.Next
+	}
+
+	idx := 0
+	current = ll.Head
+	for current != nil {
+		if count[idx] == 0 {
+			idx++
+		} else {
+			current.Info = idx
+			count[idx]--
+			current = current.Next
 		}
-
-		node = node.Next
 	}
 
-	out := mergeFirstLLIntoSecondLL(zeroLL, oneLL)
-	out = mergeFirstLLIntoSecondLL(out, twoLL)
-
-	return *out
-}
-
-func mergeFirstLLIntoSecondLL(l1 *i.LinkedList, l2 *i.LinkedList) *i.LinkedList {
-	node := l2.Head
-
-	for node != nil {
-		l1.Insert(node.Info)
-		node = node.Next
-	}
-
-	return l1
+	return *ll
 }

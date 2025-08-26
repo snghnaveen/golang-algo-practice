@@ -1,13 +1,16 @@
 package tree
 
 import (
-	i "github.com/snghnaveen/golang-algo-practice/internal"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+
+	i "github.com/snghnaveen/golang-algo-practice/internal"
 )
 
 func TestPathSum(t *testing.T) {
+	t.Log(`https://leetcode.com/problems/path-sum/description/`)
+
 	t.Log(`
 	Given the root of a binary tree and an integer targetSum,
 	return true if the tree has a root-to-leaf path such that adding up all the values

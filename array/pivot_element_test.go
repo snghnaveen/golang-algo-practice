@@ -7,6 +7,8 @@ import (
 )
 
 func TestPivotInteger(t *testing.T) {
+	t.Log(`Link : https://leetcode.com/problems/find-the-pivot-integer/`)
+
 	t.Log(`
 	Given a positive integer n, find the pivot integer x such that:
 	The sum of all elements between 1 and x inclusively equals the sum of 
@@ -26,7 +28,7 @@ func TestPivotInteger(t *testing.T) {
 	Explanation: 1 is the pivot integer since: 1 = 1.
 
 	Example 3:
-	// Input: n = 4
+	Input: n = 4
 	Output: -1
 	Explanation: It can be proved that no such integer exist.
 	`)
@@ -48,7 +50,7 @@ func TestPivotInteger(t *testing.T) {
 	})
 }
 
-// @TODO can be solved using binaray search
+// @TODO can be solved using binary search and the arithmetic progression sum formula
 func RunPivotInteger(n int) int {
 	total := 0
 	for i := 1; i <= n; i++ {

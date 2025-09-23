@@ -71,6 +71,10 @@
 | 4. Daily Temperatures  | [Stack](#stack) | [daily_temp_test.go](./stack/daily_temp_test.go)                     |
 
 
+### [Tree](https://www.techinterviewhandbook.org/algorithms/tree/)
+| Question                        | Category      | Source                                                |
+| ------------------------------- | ------------- | ----------------------------------------------------- |
+| 1. Maximum Depth of Binary Tree | [Tree](#tree) | [maximum_depth_test.go](./tree/maximum_depth_test.go) |
 
 
 #### Sliding Window

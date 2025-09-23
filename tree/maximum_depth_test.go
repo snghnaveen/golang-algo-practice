@@ -10,6 +10,8 @@ import (
 )
 
 func TestMaximumDepth(t *testing.T) {
+	t.Log("Link: https://leetcode.com/problems/maximum-depth-of-binary-tree/")
+
 	t.Log(`
 	Given the root of a binary tree, return its maximum depth.
 	A binary tree's maximum depth is the number of nodes along the

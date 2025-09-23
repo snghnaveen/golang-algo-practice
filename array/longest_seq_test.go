@@ -7,6 +7,8 @@ import (
 )
 
 func TestLongestSequence(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/longest-consecutive-sequence/`)
+
 	t.Log(`
 	Given an unsorted array of integers nums, 
 	return the length of the longest consecutive elements sequence.

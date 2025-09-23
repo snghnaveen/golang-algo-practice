@@ -7,6 +7,8 @@ import (
 )
 
 func TestFindFirstMissingPostiveNum(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/first-missing-positive/description/`)
+
 	t.Log(`
 	Given an unsorted array arr[] with both positive and negative elements, 
 	the task is to find the smallest positive number missing from the array.

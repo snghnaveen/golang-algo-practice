@@ -7,7 +7,7 @@ import (
 )
 
 func TestPivotInteger(t *testing.T) {
-	t.Log(`Link : https://leetcode.com/problems/find-the-pivot-integer/`)
+	t.Log(`Link: https://leetcode.com/problems/find-the-pivot-integer/`)
 
 	t.Log(`
 	Given a positive integer n, find the pivot integer x such that:

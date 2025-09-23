@@ -7,6 +7,8 @@ import (
 )
 
 func TestSort012(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/sort-colors/description/`)
+
 	t.Log(`
 	Given an array A[] consisting of only 0s, 1s, and 2s. 
 	The task is to write a function that sorts the given array. 

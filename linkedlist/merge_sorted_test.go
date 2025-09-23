@@ -8,6 +8,8 @@ import (
 )
 
 func TestMergeSorted(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/merge-two-sorted-lists/`)
+
 	t.Log(`
 	You are given the heads of two sorted linked lists list1 and list2.
 	Merge the two lists into one sorted list. 

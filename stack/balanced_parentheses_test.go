@@ -9,6 +9,7 @@ import (
 )
 
 func TestBalancedParentheses(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/valid-parentheses/description/`)
 
 	t.Log(`
 		Given an expression string exp, write a program to examine whether the pairs and the orders of 

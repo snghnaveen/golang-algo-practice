@@ -9,7 +9,7 @@ import (
 )
 
 func Test012SortLinkedList(t *testing.T) {
-	t.Log(`Link : https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1`)
+	t.Log(`Link: https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1`)
 
 	t.Log(`
 	You are given a Linked List with nodes that have values 0, 1 or 2. Sort the linked list.

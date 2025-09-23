@@ -7,6 +7,8 @@ import (
 )
 
 func TestMergeSorted(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/merge-sorted-array/description/`)
+
 	t.Log(`
 	You are given two integer arrays nums1 and nums2, 
 	sorted in non-decreasing order, 

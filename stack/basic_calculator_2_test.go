@@ -8,7 +8,7 @@ import (
 )
 
 func TestBasicCalculator2(t *testing.T) {
-	t.Log(`Link : https://leetcode.com/problems/basic-calculator-ii/description/`)
+	t.Log(`Link: https://leetcode.com/problems/basic-calculator-ii/description/`)
 
 	t.Log(`
 	Given a string s which represents an expression, 
@@ -60,6 +60,7 @@ func RunBasicCalculator2(s string) int {
 			num = 10*num + int(ch-'0')
 		}
 
+		// i == len(s)-1 to process the last number in the input string
 		if !unicode.IsDigit(ch) && !unicode.IsSpace(ch) || i == len(s)-1 {
 			switch sign {
 			case '+':

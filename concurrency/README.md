@@ -7,3 +7,4 @@
 | 2. Calculate sum of square    | [sum_of_square_test.go](./sum_of_square_test.go)   |
 | 3. Print foobar alternatively | [foo_bar_test.go](./foo_bar_test.go)               |
 | 4. Print FizzBuzz             | [fizzbuzz_test.go](./fizzbuzz_test.go)             |
+| 5. Odd Even Alternative       | [odd_even_test.go](./odd_even_test.go)             |

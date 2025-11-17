@@ -75,6 +75,7 @@
 | Question                        | Category      | Source                                                |
 | ------------------------------- | ------------- | ----------------------------------------------------- |
 | 1. Maximum Depth of Binary Tree | [Tree](#tree) | [maximum_depth_test.go](./tree/maximum_depth_test.go) |
+| 2. Invert Binary Tree           | [Tree](#tree) | [invert_test.go](./tree/invert_test.go)               |
 
 
 #### Sliding Window

@@ -9,6 +9,8 @@ import (
 )
 
 func TestInvert(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/invert-binary-tree/`)
+
 	t.Log(`
 	Given the root of a binary tree, invert the tree, and return its root.
 	`)

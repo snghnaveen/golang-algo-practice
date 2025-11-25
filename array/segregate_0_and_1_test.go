@@ -7,6 +7,8 @@ import (
 )
 
 func TestSegregate0And1(t *testing.T) {
+	t.Log(`Link: https://www.geeksforgeeks.org/dsa/segregate-0s-and-1s-in-an-array-by-traversing-array-once/`)
+
 	t.Log(`
 	You are given an array of 0s and 1s in random order. 
 	Segregate 0s on left side and 1s on right side of the array 

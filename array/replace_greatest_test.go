@@ -1,12 +1,15 @@
 package array
 
 import (
+	"slices"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 )
 
 func TestReplaceElementsGreatestElementOnRightSide(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/`)
+
 	t.Log(`
 	Given an array arr, replace every element in that array with the greatest element among the elements to its right, 
 	and replace the last element with -1.
@@ -34,6 +37,7 @@ func TestReplaceElementsGreatestElementOnRightSide(t *testing.T) {
 		exp := []int{18, 6, 6, 6, 1, -1}
 
 		assert.Equal(t, exp, RunReplaceElementsGreatestElementOnRightSide(in))
+		assert.Equal(t, exp, RunReplaceElementsGreatestElementOnRightSide2(in))
 	})
 
 	t.Run("Suite 2", func(t *testing.T) {
@@ -41,6 +45,7 @@ func TestReplaceElementsGreatestElementOnRightSide(t *testing.T) {
 		exp := []int{-1}
 
 		assert.Equal(t, exp, RunReplaceElementsGreatestElementOnRightSide(in))
+		assert.Equal(t, exp, RunReplaceElementsGreatestElementOnRightSide2(in))
 	})
 
 }
@@ -56,4 +61,12 @@ func RunReplaceElementsGreatestElementOnRightSide(arr []int) []int {
 
 	}
 	return out
+}
+
+func RunReplaceElementsGreatestElementOnRightSide2(arr []int) []int {
+	for i := 0; i < len(arr)-1; i++ {
+		arr[i] = slices.Max(arr[i+1:])
+	}
+	arr[len(arr)-1] = -1
+	return arr
 }

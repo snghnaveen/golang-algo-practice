@@ -8,6 +8,8 @@ import (
 )
 
 func TestMinMovesToSeat(t *testing.T) {
+	t.Log(`Link: https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/`)
+
 	t.Log(`
 	There are n seats and n students in a room. 
 	You are given an array seats of length n, where seats[i] is the position of 

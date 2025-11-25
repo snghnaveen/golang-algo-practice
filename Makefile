@@ -1,3 +1,12 @@
+.PHONY: random-test
+random-test:
+	@tmpfile=$$(mktemp); \
+	find . -type f -name '*_test.go' ! -path './internal/*' > "$$tmpfile"; \
+	count=$$(wc -l < "$$tmpfile"); \
+	random_line=$$(( (RANDOM % count) + 1 )); \
+	echo "🧩 Try solving this : $$(sed -n "$${random_line}p" "$$tmpfile")"; \
+	rm "$$tmpfile"
+
 .PHONY: tests
 tests: clear-cache
 	go test -v ./...

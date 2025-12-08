@@ -30,3 +30,4 @@
 | 25. Find All Anagrams in a String                                                      | [find_anagrams_test.go](./find_anagrams_test.go)                                             |
 | 25. Longest Palindromic Substring                                                      | [longest_palindrome_substring_test.go](./longest_palindrome_substring_test.go)               |
 | 26. Word Pattern                                                                       | [word_pattern_test.go](./word_pattern_test.go)                                               |
+| 27. String Compression                                                                 | [string_compression_test.go](./string_compression_test.go)                                   |

@@ -36,6 +36,7 @@ func TestTippingRain(t *testing.T) {
 
 }
 
+// todo revisit
 func RunTippingRain(in []int) int {
 	l, r := 0, len(in)-1
 	lMax, rMax := in[l], in[r]

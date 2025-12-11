@@ -43,8 +43,21 @@ func TestRemoveZeroSumSublists(t *testing.T) {
 		}
 		assert.Contains(t, exp, RunRemoveZeroSumSublists(ll).GetAllValuesAsArr())
 	})
+	t.Run("Suite 2", func(t *testing.T) {
+		in := []int{1, 2, 3, -3, 4}
+		exp := [][]int{
+			{1, 2, 4},
+		}
+
+		ll := l.NewLinkedList()
+		for _, v := range in {
+			ll.Insert(v)
+		}
+		assert.Contains(t, exp, RunRemoveZeroSumSublists(ll).GetAllValuesAsArr())
+	})
 }
 
+// todo revisit
 func RunRemoveZeroSumSublists(ll *l.LinkedList) *l.LinkedList {
 	head := ll.Head
 	dummy := &l.Node{Info: 0, Next: head}
